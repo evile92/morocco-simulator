@@ -1,0 +1,1225 @@
+{
+  "source": "https://moroccoapi.dev",
+  "syncedAt": "2026-11-12T20:10:20.844Z",
+  "dams": {
+    "meta": {
+      "retrievedAt": "2026-10-16",
+      "total": 25
+    },
+    "dams": [
+      {
+        "id": "abdelmoumen",
+        "nameAr": "عبد المومن",
+        "nameEn": "Abdelmoumen",
+        "basin": "souss-massa",
+        "basinAr": "حوض سوس ماسة",
+        "basinEn": "Souss-Massa Basin",
+        "capacityMm3": null,
+        "volumeMm3": 66,
+        "fillingRatePct": 33,
+        "prevYearFillingRatePct": 4,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "abou-el-abess-sebti",
+        "nameAr": "Abou El Abess Sebti",
+        "nameEn": "Abou El Abess Sebti",
+        "basin": "tensift",
+        "basinAr": "حوض تانسيفت",
+        "basinEn": "Tensift Basin",
+        "capacityMm3": 22.37,
+        "volumeMm3": 18.23,
+        "fillingRatePct": 81.5,
+        "prevYearFillingRatePct": null,
+        "date": "2026-09-30"
+      },
+      {
+        "id": "ahmed-el-hansali",
+        "nameAr": "أحمد الحنصالي",
+        "nameEn": "Ahmed El Hansali",
+        "basin": "oum-er-rbia",
+        "basinAr": "حوض أم الربيع",
+        "basinEn": "Oum Er-Rbia Basin",
+        "capacityMm3": null,
+        "volumeMm3": 544,
+        "fillingRatePct": 78,
+        "prevYearFillingRatePct": 15,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "al-massira",
+        "nameAr": "المسيرة",
+        "nameEn": "Al Massira",
+        "basin": "oum-er-rbia",
+        "basinAr": "حوض أم الربيع",
+        "basinEn": "Oum Er-Rbia Basin",
+        "capacityMm3": null,
+        "volumeMm3": 1065,
+        "fillingRatePct": 40,
+        "prevYearFillingRatePct": 2,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "al-wahda",
+        "nameAr": "الوحدة",
+        "nameEn": "Al Wahda",
+        "basin": "sebou",
+        "basinAr": "حوض سبو",
+        "basinEn": "Sebou Basin",
+        "capacityMm3": null,
+        "volumeMm3": 2771,
+        "fillingRatePct": 80,
+        "prevYearFillingRatePct": 45,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "asfalou",
+        "nameAr": "أسفالو",
+        "nameEn": "Asfalou",
+        "basin": "sebou",
+        "basinAr": "حوض سبو",
+        "basinEn": "Sebou Basin",
+        "capacityMm3": null,
+        "volumeMm3": 169,
+        "fillingRatePct": 57,
+        "prevYearFillingRatePct": 34,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "bge-my-abdrhmane",
+        "nameAr": "مولاي عبد الرحمان",
+        "nameEn": "Bge My abdrhmane",
+        "basin": "tensift",
+        "basinAr": "حوض تانسيفت",
+        "basinEn": "Tensift Basin",
+        "capacityMm3": null,
+        "volumeMm3": 48,
+        "fillingRatePct": 81,
+        "prevYearFillingRatePct": 54,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "bin-el-ouidane",
+        "nameAr": "بين الويدان",
+        "nameEn": "Bin El Ouidane",
+        "basin": "oum-er-rbia",
+        "basinAr": "حوض أم الربيع",
+        "basinEn": "Oum Er-Rbia Basin",
+        "capacityMm3": null,
+        "volumeMm3": 1021,
+        "fillingRatePct": 80,
+        "prevYearFillingRatePct": 15,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "charif-al-idrissi",
+        "nameAr": "الشريف الإدريسي",
+        "nameEn": "Charif Al Idrissi",
+        "basin": "loukkos",
+        "basinAr": "حوض اللوكوس",
+        "basinEn": "Loukkos Basin",
+        "capacityMm3": null,
+        "volumeMm3": 113,
+        "fillingRatePct": 84,
+        "prevYearFillingRatePct": 76,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "dar-khrofa",
+        "nameAr": "دار خروفة",
+        "nameEn": "Dar Khrofa",
+        "basin": "loukkos",
+        "basinAr": "حوض اللوكوس",
+        "basinEn": "Loukkos Basin",
+        "capacityMm3": null,
+        "volumeMm3": 409,
+        "fillingRatePct": 86,
+        "prevYearFillingRatePct": 13,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "hassan-addakhil",
+        "nameAr": "حسن الداخل",
+        "nameEn": "Hassan Addakhil",
+        "basin": "guir-ziz-gheris",
+        "basinAr": "Guir Ziz Gheris",
+        "basinEn": "Guir Ziz Gheris",
+        "capacityMm3": null,
+        "volumeMm3": 169,
+        "fillingRatePct": 59,
+        "prevYearFillingRatePct": 63,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "hassan-ii",
+        "nameAr": "الحسن الثاني",
+        "nameEn": "Hassan Ii",
+        "basin": "moulouya",
+        "basinAr": "حوض ملوية",
+        "basinEn": "Moulouya Basin",
+        "capacityMm3": null,
+        "volumeMm3": 206,
+        "fillingRatePct": 58,
+        "prevYearFillingRatePct": 16,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "idriss-i",
+        "nameAr": "إدريس الأول",
+        "nameEn": "Idriss I",
+        "basin": "sebou",
+        "basinAr": "حوض سبو",
+        "basinEn": "Sebou Basin",
+        "capacityMm3": null,
+        "volumeMm3": 803,
+        "fillingRatePct": 74,
+        "prevYearFillingRatePct": 35,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "kaddoussa",
+        "nameAr": "قدوسة",
+        "nameEn": "Kaddoussa",
+        "basin": "guir-ziz-gheris",
+        "basinAr": "Guir Ziz Gheris",
+        "basinEn": "Guir Ziz Gheris",
+        "capacityMm3": null,
+        "volumeMm3": 61,
+        "fillingRatePct": 27,
+        "prevYearFillingRatePct": 34,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "lalla-takerkoust",
+        "nameAr": "Lalla Takerkoust",
+        "nameEn": "Lalla Takerkoust",
+        "basin": "tensift",
+        "basinAr": "حوض تانسيفت",
+        "basinEn": "Tensift Basin",
+        "capacityMm3": 50.82,
+        "volumeMm3": 37.578,
+        "fillingRatePct": 73.9,
+        "prevYearFillingRatePct": null,
+        "date": "2026-09-30"
+      },
+      {
+        "id": "mansour-eddahbi",
+        "nameAr": "منصور الذهبي",
+        "nameEn": "Mansour Eddahbi",
+        "basin": "draa-oued-noun",
+        "basinAr": "حوض درعة واد نون",
+        "basinEn": "Drâa-Oued Noun Basin",
+        "capacityMm3": null,
+        "volumeMm3": 202,
+        "fillingRatePct": 45,
+        "prevYearFillingRatePct": 39,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "mohammed-v",
+        "nameAr": "محمد الخامس",
+        "nameEn": "Mohammed V",
+        "basin": "moulouya",
+        "basinAr": "حوض ملوية",
+        "basinEn": "Moulouya Basin",
+        "capacityMm3": null,
+        "volumeMm3": 68,
+        "fillingRatePct": 41,
+        "prevYearFillingRatePct": 12,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "moulay-abdellah",
+        "nameAr": "مولاي عبد الله",
+        "nameEn": "Moulay Abdellah",
+        "basin": "souss-massa",
+        "basinAr": "حوض سوس ماسة",
+        "basinEn": "Souss-Massa Basin",
+        "capacityMm3": null,
+        "volumeMm3": 68,
+        "fillingRatePct": 84,
+        "prevYearFillingRatePct": 44,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "oued-el-makhazine",
+        "nameAr": "وادي المخازن",
+        "nameEn": "Oued El Makhazine",
+        "basin": "loukkos",
+        "basinAr": "حوض اللوكوس",
+        "basinEn": "Loukkos Basin",
+        "capacityMm3": null,
+        "volumeMm3": 465,
+        "fillingRatePct": 66,
+        "prevYearFillingRatePct": 72,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "sd-mohamed-ben-slimane-el-jazouli",
+        "nameAr": "Sd Mohamed Ben Slimane El Jazouli",
+        "nameEn": "Sd Mohamed Ben Slimane El Jazouli",
+        "basin": "tensift",
+        "basinAr": "حوض تانسيفت",
+        "basinEn": "Tensift Basin",
+        "capacityMm3": 12.31,
+        "volumeMm3": 8.487,
+        "fillingRatePct": 68.9,
+        "prevYearFillingRatePct": null,
+        "date": "2026-09-30"
+      },
+      {
+        "id": "sidi-mohamed-ben-abdellah",
+        "nameAr": "سيدي محمد بن عبد الله",
+        "nameEn": "Sidi Mohamed Ben Abdellah",
+        "basin": "bouregreg",
+        "basinAr": "حوض أبي رقراق",
+        "basinEn": "Bou Regreg Basin",
+        "capacityMm3": null,
+        "volumeMm3": 610,
+        "fillingRatePct": 70,
+        "prevYearFillingRatePct": 75,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "sultan-moulay-ali-cherif",
+        "nameAr": "السلطان مولاي علي الشريف",
+        "nameEn": "Sultan Moulay Ali Cherif",
+        "basin": "draa-oued-noun",
+        "basinAr": "حوض درعة واد نون",
+        "basinEn": "Drâa-Oued Noun Basin",
+        "capacityMm3": null,
+        "volumeMm3": 58,
+        "fillingRatePct": 20,
+        "prevYearFillingRatePct": 16,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "tiddas",
+        "nameAr": "تيداس",
+        "nameEn": "Tiddas",
+        "basin": "bouregreg",
+        "basinAr": "حوض أبي رقراق",
+        "basinEn": "Bou Regreg Basin",
+        "capacityMm3": null,
+        "volumeMm3": 461,
+        "fillingRatePct": 91,
+        "prevYearFillingRatePct": null,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "yacoub-el-mansour",
+        "nameAr": "يعقوب المنصور",
+        "nameEn": "Yacoub El Mansour",
+        "basin": "tensift",
+        "basinAr": "حوض تانسيفت",
+        "basinEn": "Tensift Basin",
+        "capacityMm3": null,
+        "volumeMm3": 43,
+        "fillingRatePct": 75,
+        "prevYearFillingRatePct": 33,
+        "date": "2026-10-12"
+      },
+      {
+        "id": "youssef-ben-tachfine",
+        "nameAr": "يوسف بن تاشفين",
+        "nameEn": "Youssef Ben Tachfine",
+        "basin": "souss-massa",
+        "basinAr": "حوض سوس ماسة",
+        "basinEn": "Souss-Massa Basin",
+        "capacityMm3": null,
+        "volumeMm3": 136,
+        "fillingRatePct": 46,
+        "prevYearFillingRatePct": 13,
+        "date": "2026-10-12"
+      }
+    ]
+  },
+  "ports": {
+    "meta": {
+      "retrievedAt": "2026-10-15",
+      "total": 48
+    },
+    "ports": [
+      {
+        "name": "Al Hoceima",
+        "type": "Port de pêche/passager/plaisance",
+        "category": "passenger",
+        "connectivity": "Routier",
+        "lat": 35.25,
+        "lng": -3.92,
+        "status": "Existant"
+      },
+      {
+        "name": "Assilah",
+        "type": "pêche/plaisance",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.47,
+        "lng": -6.04,
+        "status": "Existant"
+      },
+      {
+        "name": "Boujdour",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 26.12,
+        "lng": -14.5,
+        "status": "Existant"
+      },
+      {
+        "name": "Bouregreg",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 34.03,
+        "lng": -6.82,
+        "status": "Existant"
+      },
+      {
+        "name": "Cala Iris",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.15,
+        "lng": -4.37,
+        "status": "Existant"
+      },
+      {
+        "name": "Casablanca",
+        "type": "Port de pêche/fret/croisisère/plaisance",
+        "category": "passenger",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 33.61,
+        "lng": -7.6,
+        "status": "Existant"
+      },
+      {
+        "name": "Chmaâla",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.33,
+        "lng": -4.94,
+        "status": "Existant"
+      },
+      {
+        "name": "Complexe portuaire d'Agadir",
+        "type": "Port de fret/pêche/ croisisère",
+        "category": "passenger",
+        "connectivity": "Routier",
+        "lat": 30.42,
+        "lng": -9.64,
+        "status": "Existant"
+      },
+      {
+        "name": "Dakhla",
+        "type": "Port de fret/pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 23.66,
+        "lng": -15.95,
+        "status": "Existant"
+      },
+      {
+        "name": "Dalia",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.91,
+        "lng": -5.47,
+        "status": "Existant"
+      },
+      {
+        "name": "El Jadida",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 33.26,
+        "lng": -8.5,
+        "status": "Existant"
+      },
+      {
+        "name": "Essaouira",
+        "type": "pêche/plaisance",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 31.51,
+        "lng": -9.77,
+        "status": "Existant"
+      },
+      {
+        "name": "Fnideq",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.84,
+        "lng": -5.35,
+        "status": "Existant"
+      },
+      {
+        "name": "Imssouane",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 30.84,
+        "lng": -9.82,
+        "status": "Existant"
+      },
+      {
+        "name": "Inouaren",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.24,
+        "lng": -3.98,
+        "status": "Existant"
+      },
+      {
+        "name": "Jebha Chefchaouen",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.21,
+        "lng": -4.67,
+        "status": "Existant"
+      },
+      {
+        "name": "Jorf Lasfar",
+        "type": "fret/pêche",
+        "category": "fishing",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 33.13,
+        "lng": -8.63,
+        "status": "Existant"
+      },
+      {
+        "name": "Kabila Tetouan",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 35.72,
+        "lng": -5.34,
+        "status": "Existant"
+      },
+      {
+        "name": "Kénitra Atlantique",
+        "type": "Port de fret",
+        "category": "fishing",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 34.42,
+        "lng": -6.56,
+        "status": "En projet"
+      },
+      {
+        "name": "Kenitra Fluvial",
+        "type": "Port de fret/ plaisance",
+        "category": "marina",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 34.27,
+        "lng": -6.58,
+        "status": "Existant"
+      },
+      {
+        "name": "Ksar Sghir",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.85,
+        "lng": -5.56,
+        "status": "Existant"
+      },
+      {
+        "name": "Laâyoune",
+        "type": "fret/pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 27.09,
+        "lng": -13.43,
+        "status": "Existant"
+      },
+      {
+        "name": "Larache",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.2,
+        "lng": -6.14,
+        "status": "Existant"
+      },
+      {
+        "name": "Lemhiriz",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 22.2,
+        "lng": -16.78,
+        "status": "Existant"
+      },
+      {
+        "name": "Marina Atalayoun",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 35.22,
+        "lng": -2.9,
+        "status": "Existant"
+      },
+      {
+        "name": "Marina d'Agadir",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 30.42,
+        "lng": -9.62,
+        "status": "Existant"
+      },
+      {
+        "name": "Marina Smir",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 35.75,
+        "lng": -5.34,
+        "status": "Existant"
+      },
+      {
+        "name": "M'diq",
+        "type": "Port de pêche/plaisance",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.68,
+        "lng": -5.31,
+        "status": "Existant"
+      },
+      {
+        "name": "Mehdia",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 34.27,
+        "lng": -6.65,
+        "status": "Existant"
+      },
+      {
+        "name": "Mohammedia",
+        "type": "Port de fret/pêche/plaisance",
+        "category": "fishing",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 33.71,
+        "lng": -7.4,
+        "status": "Existant"
+      },
+      {
+        "name": "Nador - Beni Ensar",
+        "type": "fret/ passager/pêche",
+        "category": "passenger",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 35.28,
+        "lng": -2.92,
+        "status": "Existant"
+      },
+      {
+        "name": "Nador West Med",
+        "type": "Port de fret",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.25,
+        "lng": -3.17,
+        "status": "En construction"
+      },
+      {
+        "name": "Nouveau port de Dakhla Atlantique",
+        "type": "pêche/fret",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 24.08,
+        "lng": -15.58,
+        "status": "En construction"
+      },
+      {
+        "name": "Nouveau Port de Safi",
+        "type": "Port de fret",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 32.17,
+        "lng": -9.27,
+        "status": "Existant"
+      },
+      {
+        "name": "Nouveau port énergétique de Jorf Lasfar",
+        "type": "Port de fret",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 33.16,
+        "lng": -8.62,
+        "status": "En projet"
+      },
+      {
+        "name": "Nouvelle Marina Tanger",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 35.78,
+        "lng": -5.8,
+        "status": "Existant"
+      },
+      {
+        "name": "Ras Kebdana Nador",
+        "type": "Port de pêche/plaisance",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.15,
+        "lng": -2.42,
+        "status": "Existant"
+      },
+      {
+        "name": "Sable d'Or Skhirate Temara",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 33.87,
+        "lng": -7.05,
+        "status": "Existant"
+      },
+      {
+        "name": "Safi",
+        "type": "Port de fret/pêche/croisière",
+        "category": "passenger",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 32.31,
+        "lng": -9.25,
+        "status": "Existant"
+      },
+      {
+        "name": "Saidia",
+        "type": "Port de plaisance",
+        "category": "marina",
+        "connectivity": "Routier",
+        "lat": 35.11,
+        "lng": -2.3,
+        "status": "Existant"
+      },
+      {
+        "name": "Salé",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 34.04,
+        "lng": -6.83,
+        "status": "Existant"
+      },
+      {
+        "name": "Sidi Hssaine",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 35.2,
+        "lng": -3.45,
+        "status": "Existant"
+      },
+      {
+        "name": "Sidi Ifni",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 29.36,
+        "lng": -10.19,
+        "status": "Existant"
+      },
+      {
+        "name": "Souiria Kdima",
+        "type": "Port de pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 32.05,
+        "lng": -9.34,
+        "status": "Existant"
+      },
+      {
+        "name": "Tanger",
+        "type": "pêche/passager/plaisance/croisière",
+        "category": "passenger",
+        "connectivity": "Routier",
+        "lat": 35.79,
+        "lng": -5.8,
+        "status": "Existant"
+      },
+      {
+        "name": "Tanger Med",
+        "type": "fret/passager",
+        "category": "passenger",
+        "connectivity": "Routier et Ferroviaire",
+        "lat": 35.89,
+        "lng": -5.5,
+        "status": "Existant"
+      },
+      {
+        "name": "Tan-Tan",
+        "type": "Port de fret/pêche",
+        "category": "fishing",
+        "connectivity": "Routier",
+        "lat": 28.48,
+        "lng": -11.35,
+        "status": "Existant"
+      },
+      {
+        "name": "Tarfaya",
+        "type": "Port de pêche/passager",
+        "category": "passenger",
+        "connectivity": "Routier",
+        "lat": 27.94,
+        "lng": -12.93,
+        "status": "Existant"
+      }
+    ]
+  },
+  "population": {
+    "nationalLegalPopulation": 36828330,
+    "regions": {
+      "tangier_tetouan_al_hoceima": {
+        "apiCode": "tanger-tetouan-al-hoceima",
+        "hcpCode": "01",
+        "legalPopulation": 4030222,
+        "households": 1048860
+      },
+      "oriental": {
+        "apiCode": "oriental",
+        "hcpCode": "02",
+        "legalPopulation": 2294665,
+        "households": 575015
+      },
+      "fez_meknes": {
+        "apiCode": "fes-meknes",
+        "hcpCode": "03",
+        "legalPopulation": 4467911,
+        "households": 1135717
+      },
+      "rabat_sale_kenitra": {
+        "apiCode": "rabat-sale-kenitra",
+        "hcpCode": "04",
+        "legalPopulation": 5132639,
+        "households": 1301492
+      },
+      "beni_mellal_khenifra": {
+        "apiCode": "beni-mellal-khenifra",
+        "hcpCode": "05",
+        "legalPopulation": 2525801,
+        "households": 616566
+      },
+      "casablanca_settat": {
+        "apiCode": "casablanca-settat",
+        "hcpCode": "06",
+        "legalPopulation": 7688967,
+        "households": 2021032
+      },
+      "marrakech_safi": {
+        "apiCode": "marrakech-safi",
+        "hcpCode": "07",
+        "legalPopulation": 4892393,
+        "households": 1185865
+      },
+      "draa_tafilalet": {
+        "apiCode": "draa-tafilalet",
+        "hcpCode": "08",
+        "legalPopulation": 1655623,
+        "households": 338977
+      },
+      "souss_massa": {
+        "apiCode": "souss-massa",
+        "hcpCode": "09",
+        "legalPopulation": 3020431,
+        "households": 785208
+      },
+      "guelmim_oued_noun": {
+        "apiCode": "guelmim-oued-noun",
+        "hcpCode": "10",
+        "legalPopulation": 448685,
+        "households": 105394
+      },
+      "laayoune_sakia_el_hamra": {
+        "apiCode": "laayoune-sakia-el-hamra",
+        "hcpCode": "11",
+        "legalPopulation": 451028,
+        "households": 106751
+      },
+      "dakhla_oued_ed_dahab": {
+        "apiCode": "dakhla-oued-ed-dahab",
+        "hcpCode": "12",
+        "legalPopulation": 219965,
+        "households": 54161
+      }
+    }
+  },
+  "cpi": {
+    "latestMonth": "2026-08",
+    "divisions": [
+      {
+        "code": "GR",
+        "nameFr": "GENERAL",
+        "nameAr": "المؤشر العام للأثمان",
+        "level": "general",
+        "month": "2026-08",
+        "index": 119.6
+      },
+      {
+        "code": "01",
+        "nameFr": "PRODUITS ALIMENTAIRES ET BOISSONS NON ALCOOLISÉES",
+        "nameAr": "المواد الغذائية والمشروبات غير الكحولية",
+        "level": "division",
+        "month": "2026-08",
+        "index": 125.8
+      },
+      {
+        "code": "02",
+        "nameFr": "BOISSONS ALCOOLISÉES, TABAC ET STUPÉFIANTS",
+        "nameAr": "المشروبات الكحولية والتبغ",
+        "level": "division",
+        "month": "2026-08",
+        "index": 150.6
+      },
+      {
+        "code": "03",
+        "nameFr": "ARTICLES D'HABILLEMENT ET CHAUSSURES",
+        "nameAr": "الملابس والأحذية",
+        "level": "division",
+        "month": "2026-08",
+        "index": 117.9
+      },
+      {
+        "code": "04",
+        "nameFr": "LOGEMENT, EAU, GAZ, ELECTRICITE ET AUTRES COMBUSTIBLES",
+        "nameAr": "السكن والماء والكهرباء والوقود",
+        "level": "division",
+        "month": "2026-08",
+        "index": 110.9
+      },
+      {
+        "code": "05",
+        "nameFr": "MEUBLES, ARTICLES DE MENAGE ET ENTRETIEN COURANT DU FOYER",
+        "nameAr": "الأثاث والأدوات المنزلية",
+        "level": "division",
+        "month": "2026-08",
+        "index": 114.3
+      },
+      {
+        "code": "06",
+        "nameFr": "SANTÉ",
+        "nameAr": "الصحة",
+        "level": "division",
+        "month": "2026-08",
+        "index": 101.7
+      },
+      {
+        "code": "07",
+        "nameFr": "TRANSPORTS",
+        "nameAr": "النقل",
+        "level": "division",
+        "month": "2026-08",
+        "index": 125.8
+      },
+      {
+        "code": "08",
+        "nameFr": "COMMUNICATIONS",
+        "nameAr": "الاتصالات",
+        "level": "division",
+        "month": "2026-08",
+        "index": 103.7
+      },
+      {
+        "code": "09",
+        "nameFr": "LOISIRS ET CULTURE",
+        "nameAr": "الترفيه والثقافة",
+        "level": "division",
+        "month": "2026-08",
+        "index": 104.8
+      },
+      {
+        "code": "10",
+        "nameFr": "ENSEIGNEMENT",
+        "nameAr": "التعليم",
+        "level": "division",
+        "month": "2026-08",
+        "index": 124.4
+      },
+      {
+        "code": "11",
+        "nameFr": "RESTAURANTS ET HÔTELS",
+        "nameAr": "المطاعم والفنادق",
+        "level": "division",
+        "month": "2026-08",
+        "index": 125.4
+      },
+      {
+        "code": "12",
+        "nameFr": "BIENS ET SERVICES DIVERS",
+        "nameAr": "سلع وخدمات مختلفة",
+        "level": "division",
+        "month": "2026-08",
+        "index": 120.8
+      }
+    ],
+    "cities": [
+      {
+        "code": "national",
+        "name": "National",
+        "regionCode": null,
+        "month": "2026-08",
+        "index": 119.6
+      },
+      {
+        "code": "agadir",
+        "name": "Agadir",
+        "regionCode": "souss-massa",
+        "month": "2026-08",
+        "index": 119.9
+      },
+      {
+        "code": "casablanca",
+        "name": "Casablanca",
+        "regionCode": "casablanca-settat",
+        "month": "2026-08",
+        "index": 118.3
+      },
+      {
+        "code": "fes",
+        "name": "Fès",
+        "regionCode": "fes-meknes",
+        "month": "2026-08",
+        "index": 121.5
+      },
+      {
+        "code": "kenitra",
+        "name": "Kénitra",
+        "regionCode": "rabat-sale-kenitra",
+        "month": "2026-08",
+        "index": 120.3
+      },
+      {
+        "code": "marrakech",
+        "name": "Marrakech",
+        "regionCode": "marrakech-safi",
+        "month": "2026-08",
+        "index": 119.7
+      },
+      {
+        "code": "oujda",
+        "name": "Oujda",
+        "regionCode": "oriental",
+        "month": "2026-08",
+        "index": 120.8
+      },
+      {
+        "code": "rabat",
+        "name": "Rabat",
+        "regionCode": "rabat-sale-kenitra",
+        "month": "2026-08",
+        "index": 117.9
+      },
+      {
+        "code": "tetouan",
+        "name": "Tétouan",
+        "regionCode": "tanger-tetouan-al-hoceima",
+        "month": "2026-08",
+        "index": 122.2
+      },
+      {
+        "code": "meknes",
+        "name": "Meknès",
+        "regionCode": "fes-meknes",
+        "month": "2026-08",
+        "index": 117.9
+      },
+      {
+        "code": "tanger",
+        "name": "Tanger",
+        "regionCode": "tanger-tetouan-al-hoceima",
+        "month": "2026-08",
+        "index": 120
+      },
+      {
+        "code": "laayoune",
+        "name": "Laâyoune",
+        "regionCode": "laayoune-sakia-el-hamra",
+        "month": "2026-08",
+        "index": 123.1
+      },
+      {
+        "code": "dakhla",
+        "name": "Dakhla",
+        "regionCode": "dakhla-oued-ed-dahab",
+        "month": "2026-08",
+        "index": 119.1
+      },
+      {
+        "code": "guelmim",
+        "name": "Guelmim",
+        "regionCode": "guelmim-oued-noun",
+        "month": "2026-08",
+        "index": 125.4
+      },
+      {
+        "code": "settat",
+        "name": "Settat",
+        "regionCode": "casablanca-settat",
+        "month": "2026-08",
+        "index": 116.6
+      },
+      {
+        "code": "safi",
+        "name": "Safi",
+        "regionCode": "marrakech-safi",
+        "month": "2026-08",
+        "index": 123.2
+      },
+      {
+        "code": "beni-mellal",
+        "name": "Béni Mellal",
+        "regionCode": "beni-mellal-khenifra",
+        "month": "2026-08",
+        "index": 121.6
+      },
+      {
+        "code": "al-hoceima",
+        "name": "Al Hoceima",
+        "regionCode": "tanger-tetouan-al-hoceima",
+        "month": "2026-08",
+        "index": 126.4
+      },
+      {
+        "code": "errachidia",
+        "name": "Errachidia",
+        "regionCode": "draa-tafilalet",
+        "month": "2026-08",
+        "index": 121.5
+      }
+    ]
+  },
+  "worldBank": {
+    "gdpGrowthAnnualPct": {
+      "code": "NY.GDP.MKTP.KD.ZG",
+      "labelEn": "GDP Growth (%)",
+      "labelAr": "نمو الناتج المحلي (%)",
+      "latestYear": 2025,
+      "latestValue": 4.6,
+      "recentSeries": [
+        {
+          "year": 2022,
+          "value": 1.81
+        },
+        {
+          "year": 2023,
+          "value": 3.66
+        },
+        {
+          "year": 2024,
+          "value": 3.79
+        },
+        {
+          "year": 2025,
+          "value": 4.6
+        }
+      ]
+    },
+    "inflationAnnualPct": {
+      "code": "FP.CPI.TOTL.ZG",
+      "labelEn": "CPI Inflation (%)",
+      "labelAr": "التضخم السنوي (%)",
+      "latestYear": 2025,
+      "latestValue": 0.7,
+      "recentSeries": [
+        {
+          "year": 2022,
+          "value": 6.66
+        },
+        {
+          "year": 2023,
+          "value": 6.09
+        },
+        {
+          "year": 2024,
+          "value": 0.99
+        },
+        {
+          "year": 2025,
+          "value": 0.7
+        }
+      ]
+    },
+    "unemploymentTotalPct": {
+      "code": "SL.UEM.TOTL.ZS",
+      "labelEn": "Unemployment Total (%)",
+      "labelAr": "معدل البطالة العام (%)",
+      "latestYear": 2025,
+      "latestValue": 9,
+      "recentSeries": [
+        {
+          "year": 2022,
+          "value": 9.41
+        },
+        {
+          "year": 2023,
+          "value": 8.9
+        },
+        {
+          "year": 2024,
+          "value": 9.1
+        },
+        {
+          "year": 2025,
+          "value": 9
+        }
+      ]
+    },
+    "youthUnemploymentPct": {
+      "code": "SL.UEM.1524.ZS",
+      "labelEn": "Youth Unemployment (%)",
+      "labelAr": "بطالة الشباب (%)",
+      "latestYear": 2025,
+      "latestValue": 21.88,
+      "recentSeries": [
+        {
+          "year": 2022,
+          "value": 22.71
+        },
+        {
+          "year": 2023,
+          "value": 21.97
+        },
+        {
+          "year": 2024,
+          "value": 22.37
+        },
+        {
+          "year": 2025,
+          "value": 21.88
+        }
+      ]
+    },
+    "fdiInflowsPctGdp": {
+      "code": "BX.KLT.DINV.WD.GD.ZS",
+      "labelEn": "FDI Inflows (% GDP)",
+      "labelAr": "الاستثمار الأجنبي المباشر (% من الناتج)",
+      "latestYear": 2025,
+      "latestValue": 1.82,
+      "recentSeries": [
+        {
+          "year": 2022,
+          "value": 1.75
+        },
+        {
+          "year": 2023,
+          "value": 0.73
+        },
+        {
+          "year": 2024,
+          "value": 1.09
+        },
+        {
+          "year": 2025,
+          "value": 1.82
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "water_desalination_expansion",
+    "category": "water",
+    "titleEn": "National Desalination Mega-Program",
+    "titleAr": "البرنامج الوطني لمحطات تحلية مياه البحر",
+    "descriptionEn": "Construct and expand seawater desalination plants in Casablanca, Safi, and Oriental to guarantee 1.7 billion m3 of potable water by 2030.",
+    "descriptionAr": "بناء وتوسيع محطات تحلية مياه البحر الكبرى في الدار البيضاء وآسفي والشرق لتأمين 1.7 مليار متر مكعب من المياه الصالحة للشرب.",
+    "upfrontCostBillionMAD": 12,
+    "monthlyCostBillionMAD": 0.25,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Guarantees municipal water for coastal metropolises",
+      "Reduces pressure on inland dam reservoirs by 35%"
+    ],
+    "expectedProsAr": [
+      "تأمين مياه الشرب للمدن الساحلية الكبرى",
+      "تخفيف الضغط على السدود الداخلية بنسبة 35%"
+    ],
+    "expectedRisksEn": [
+      "High electricity consumption",
+      "Capital intensive initial debt requirement"
+    ],
+    "expectedRisksAr": [
+      "استهلاك مرتفع للطاقة الكهربائية",
+      "ارتفاع حجم الاستدانة الأولية"
+    ],
+    "modifiers": {
+      "damFillDelta": 1.5,
+      "desalinationDelta": 450000,
+      "socialTensionDelta": -4,
+      "approvalDelta": 3.5,
+      "regionalSatisfactionDelta": {
+        "casablanca_settat": 6,
+        "marrakech_safi": 5,
+        "oriental": 4
+      }
+    }
+  },
+  {
+    "id": "water_highway_interconnection",
+    "category": "water",
+    "titleEn": "Sebou-Bouregreg-Oum Er-Rbia Water Highway",
+    "titleAr": "الطريق السيار المائي لربط أحواض سبو وأبي رقراق وأم الربيع",
+    "descriptionEn": "Complete the southern leg of the national water highway to transfer 400 million m3 of surplus northern water to the parched Chaouia and Tensift basins.",
+    "descriptionAr": "استكمال الشطر الجنوبي للطريق السيار للماء لتحويل 400 مليون متر مكعب من فائض مياه الشمال نحو حوضي الشاوية وتانسيفت المجهدين.",
+    "upfrontCostBillionMAD": 8.5,
+    "monthlyCostBillionMAD": 0.15,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Prevents critical tap water cuts in Casablanca and Marrakech",
+      "Strengthens territorial water solidarity"
+    ],
+    "expectedProsAr": [
+      "تفادي انقطاعات الماء الحادة بالبيضاء ومراكش",
+      "تعزيز التضامن المائي بين الأحواض"
+    ],
+    "expectedRisksEn": [
+      "Ecological impact on Sebou estuary",
+      "High pumping operations expense"
+    ],
+    "expectedRisksAr": [
+      "تأثيرات بيئية على مصب نهر سبو",
+      "تكلفة تشغيلية لضخ المياه"
+    ],
+    "modifiers": {
+      "damFillDelta": 2,
+      "socialTensionDelta": -3.5,
+      "approvalDelta": 3,
+      "regionalSatisfactionDelta": {
+        "casablanca_settat": 5,
+        "marrakech_safi": 5,
+        "rabat_sale_kenitra": 1
+      }
+    }
+  },
+  {
+    "id": "drip_irrigation_modernization",
+    "category": "water",
+    "titleEn": "National Drip Irrigation Modernization Subsidy",
+    "titleAr": "دعم تعميم تقنيات الري الموضعي بالتنقيط",
+    "descriptionEn": "Subsidize 100% of drip irrigation equipment for small farmers to save 2 billion cubic meters of wasted flood irrigation water annually.",
+    "descriptionAr": "دعم بنسبة 100% لمعدات السقي الموضعي (بالتنقيط) للفلاحين الصغار لتوفير ملياري متر مكعب من مياه الري المهدورة سنوياً.",
+    "upfrontCostBillionMAD": 4.2,
+    "monthlyCostBillionMAD": 0.1,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Conserves 30% of agricultural groundwater",
+      "Improves crop yield per hectare"
+    ],
+    "expectedProsAr": [
+      "اقتصاد 30% من المياه الجوفية الزراعية",
+      "رفع مردودية الهكتار"
+    ],
+    "expectedRisksEn": [
+      "May encourage intensive crop expansion (Jevons paradox)"
+    ],
+    "expectedRisksAr": [
+      "خطر توسيع المساحات المسقية واستنزاف الطبقة المائية"
+    ],
+    "modifiers": {
+      "damFillDelta": 1,
+      "approvalDelta": 2,
+      "demographicSatisfactionDelta": {
+        "farmers": 7
+      },
+      "regionalSatisfactionDelta": {
+        "souss_massa": 5,
+        "beni_mellal_khenifra": 4
+      }
+    }
+  },
+  {
+    "id": "water_crisis_emergency_rationing",
+    "category": "water",
+    "titleEn": "Urban Water Emergency Rationing Order",
+    "titleAr": "مرسوم تقنين الاستهلاك وتدبير طوارئ الإجهاد المائي",
+    "descriptionEn": "Ban watering public parks with potable water, close car washes 3 days a week, and restrict traditional public bathhouse hours during peak summer drought.",
+    "descriptionAr": "حظر سقي المساحات الخضراء بالماء الصالح للشرب، وإغلاق مغاسل السيارات 3 أيام أسبوعياً، وتقليص ساعات عمل الحمامات التقليدية.",
+    "upfrontCostBillionMAD": 0.1,
+    "monthlyCostBillionMAD": -0.05,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Conserves 15% immediate potable supply in urban centers"
+    ],
+    "expectedProsAr": [
+      "اقتصاد 15% فوري من مياه الشرب بالحواضر"
+    ],
+    "expectedRisksEn": [
+      "Public dissatisfaction among workers and owners of hammams and carwashes",
+      "Temporary social friction"
+    ],
+    "expectedRisksAr": [
+      "استياء أرباب الحمامات ومغاسل السيارات والعمال",
+      "احتقان اجتماعي خفيف"
+    ],
+    "modifiers": {
+      "socialTensionDelta": 2.5,
+      "approvalDelta": -2,
+      "demographicSatisfactionDelta": {
+        "workers": -4,
+        "low_income": -2
+      }
+    }
+  },
+  {
+    "id": "ev_gigafactory_incentives",
+    "category": "economy",
+    "titleEn": "Electric Vehicle & Battery Gigafactory Incentive Pact",
+    "titleAr": "ميثاق تحفيز صناعة بطاريات السيارات الكهربائية (جيغافاكتوري)",
+    "descriptionEn": "Offer tax credits, subsidized industrial land, and renewable energy supply to attract major EV cathode and battery cell manufacturers in Kénitra and Tangier.",
+    "descriptionAr": "تقديم إعفاءات ضريبية وعقارات صناعية مجهزة وطاقة متجددة لجذب مصانع خلايا البطاريات الكهربائية بالقنيطرة وطنجة.",
+    "upfrontCostBillionMAD": 5,
+    "monthlyCostBillionMAD": 0.1,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Creates 25,000 high-skill engineering and assembly jobs",
+      "Boosts automotive export value by 18%"
+    ],
+    "expectedProsAr": [
+      "خلق 25 ألف منصب شغل تقني وهندسي",
+      "زيادة صادرات قطاع السيارات بنسبة 18%"
+    ],
+    "expectedRisksEn": [
+      "Immediate tax revenue abatement",
+      "Infrastructure connection load"
+    ],
+    "expectedRisksAr": [
+      "تراجع مؤقت في المداخيل الضريبية المعفاة",
+      "ضغط على البنية التحتية"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.6,
+      "unemploymentDelta": -0.5,
+      "youthUnemploymentDelta": -0.9,
+      "fdiBillionMAD": 2.5,
+      "approvalDelta": 3,
+      "regionalSatisfactionDelta": {
+        "tangier_tetouan_al_hoceima": 5,
+        "rabat_sale_kenitra": 5
+      }
+    }
+  },
+  {
+    "id": "ocp_green_hydrogen_investment",
+    "category": "economy",
+    "titleEn": "Green Ammonia & Fertilizer Decarbonization Investment",
+    "titleAr": "استثمار إنتاج الأمونياك الأخضر والأسمدة النظيفة مع OCP",
+    "descriptionEn": "Partner with OCP to invest in massive green hydrogen plants in Guelmim and Laâyoune to replace imported natural gas ammonia with zero-carbon domestic fertilizer.",
+    "descriptionAr": "شراكة استثمارية مع مجمع الفوسفاط لإنتاج الهيدروجين الأخضر بكلميم والعيون لتحقيق السيادة في صناعة الأمونياك بدلاً من الاستيراد.",
+    "upfrontCostBillionMAD": 10,
+    "monthlyCostBillionMAD": 0.2,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Eliminates billions in annual ammonia imports",
+      "Positions Morocco as global clean fertilizer champion"
+    ],
+    "expectedProsAr": [
+      "توفير مليارات الدراهم من واردات الأمونياك",
+      "ترسيخ ريادة المغرب العالمية في الأسمدة النظيفة"
+    ],
+    "expectedRisksEn": [
+      "Significant upfront capital commitment"
+    ],
+    "expectedRisksAr": [
+      "تعبئة رأسمال استثماري ضخم"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.5,
+      "revenueDelta": 0.4,
+      "fdiBillionMAD": 2,
+      "approvalDelta": 2.5,
+      "regionalSatisfactionDelta": {
+        "guelmim_oued_noun": 7,
+        "laayoune_sakia_el_hamra": 6
+      }
+    }
+  },
+  {
+    "id": "aeronautics_supply_chain_expansion",
+    "category": "economy",
+    "titleEn": "Aerospace Industrial Ecosystem Expansion",
+    "titleAr": "توسيع المنظومة الصناعية للطيران ومحركات الطائرات",
+    "descriptionEn": "Expand the Midparc aerospace cluster in Casablanca to attract aircraft engine maintenance, composites manufacturing, and avionics.",
+    "descriptionAr": "توسيع قطب صناعة الطيران (ميدبارك) بالنواصر لجذب صيانة محركات الطائرات والأجزاء المركبة والإلكترونيات الجوية.",
+    "upfrontCostBillionMAD": 2.5,
+    "monthlyCostBillionMAD": 0.05,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Expands export receipts",
+      "Integrates Moroccan engineers into global aerospace supply chains"
+    ],
+    "expectedProsAr": [
+      "الرفع من عائدات التصدير",
+      "إدماج المهندسين المغاربة في سلاسل القيمة العالمية"
+    ],
+    "expectedRisksEn": [
+      "Sensitivity to global civil aviation cycles"
+    ],
+    "expectedRisksAr": [
+      "الحساسية لتقلبات حركة الطيران العالمي"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.3,
+      "unemploymentDelta": -0.2,
+      "fdiBillionMAD": 1.2,
+      "regionalSatisfactionDelta": {
+        "casablanca_settat": 4
+      }
+    }
+  },
+  {
+    "id": "corporate_tax_progressive_reform",
+    "category": "taxation",
+    "titleEn": "Unified Progressive Corporate Tax Framework",
+    "titleAr": "التطبيق الموحد للضريبة التصاعدية على الشركات",
+    "descriptionEn": "Harmonize corporate tax (IS) rates to 20% for standard enterprises while raising financial institutions and monopolies to 35% as per framework tax law.",
+    "descriptionAr": "توحيد الضريبة على الشركات عند 20% للمقاولات العادية ورفعها إلى 35% للمؤسسات المالية والشركات الاحتكارية الكبرى وفق القانون الإطار.",
+    "upfrontCostBillionMAD": 0.2,
+    "monthlyCostBillionMAD": -0.6,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Increases state treasury revenue by 7.2B MAD/year",
+      "Enhances fiscal equity and promotes small enterprises"
+    ],
+    "expectedProsAr": [
+      "زيادة مداخيل الخزينة بـ 7.2 مليار درهم سنوياً",
+      "تعزيز العدالة الجبائية وإنعاش المقاولات الصغرى والمتوسطة"
+    ],
+    "expectedRisksEn": [
+      "Protests from banking and telecom lobbying groups"
+    ],
+    "expectedRisksAr": [
+      "اعتراض من جماعات الضغط البنكية والاتصالات"
+    ],
+    "modifiers": {
+      "revenueDelta": 0.6,
+      "approvalDelta": 1.5,
+      "demographicSatisfactionDelta": {
+        "business_owners": -3,
+        "middle_income": 2,
+        "low_income": 3
+      }
+    }
+  },
+  {
+    "id": "income_tax_middle_class_relief",
+    "category": "taxation",
+    "titleEn": "Middle-Class Personal Income Tax (IR) Relief",
+    "titleAr": "تخفيف العبء الضريبي على الدخل (IR) للطبقة المتوسطة",
+    "descriptionEn": "Raise the tax-free income threshold to 40,000 MAD/year and slash intermediate tax brackets by 1.5% to boost consumer purchasing power.",
+    "descriptionAr": "رفع سقف الدخل المعفى من الضريبة إلى 40 ألف درهم سنوياً وتخفيض الشرائح المتوسطة بنسبة 1.5% لتعزيز القدرة الشرائية للموظفين.",
+    "upfrontCostBillionMAD": 0.1,
+    "monthlyCostBillionMAD": 0.45,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Injects purchasing power directly into Moroccan households",
+      "Stimulates domestic retail and grocery demand"
+    ],
+    "expectedProsAr": [
+      "ضخ سيولة مباشرة في جيوب الأسر المغربية",
+      "تنشيط الاستهلاك والتجارة الداخلية"
+    ],
+    "expectedRisksEn": [
+      "Reduces monthly state income tax receipts by 450M MAD"
+    ],
+    "expectedRisksAr": [
+      "تراجع المداخيل الضريبية للخزينة بـ 450 مليون درهم شهرياً"
+    ],
+    "modifiers": {
+      "inflationDelta": 0.2,
+      "approvalDelta": 4.5,
+      "socialTensionDelta": -3,
+      "demographicSatisfactionDelta": {
+        "middle_income": 8,
+        "public_employees": 7,
+        "private_employees": 7
+      }
+    }
+  },
+  {
+    "id": "fuel_carbon_excise_increase",
+    "category": "taxation",
+    "titleEn": "Hydrocarbon & Fuel Green Transition Surcharge",
+    "titleAr": "رسم الانتقال الأخضر على استهلاك المحروقات والوقود",
+    "descriptionEn": "Introduce an internal consumption tax (TIC) of 0.35 MAD per liter on diesel and gasoline to fund clean public transit and reduce budget deficit.",
+    "descriptionAr": "فرض رسم بيئي إضافي بقيمة 0.35 درهم لكل لتر من الغازوال والبنزين لتمويل النقل الحضري النظيف وتقليص عجز الميزانية.",
+    "upfrontCostBillionMAD": 0.05,
+    "monthlyCostBillionMAD": -0.7,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Generates 8.4 Billion MAD in recurring annual revenue",
+      "Incentivizes energy sobriety"
+    ],
+    "expectedProsAr": [
+      "تحصيل 8.4 مليار درهم سنوياً للخزينة",
+      "تشجيع الاقتصاد في استهلاك الطاقة"
+    ],
+    "expectedRisksEn": [
+      "Increases transportation costs and food logistics prices",
+      "Triggers immediate public backlash and transport strikes"
+    ],
+    "expectedRisksAr": [
+      "ارتفاع تكاليف النقل وأسعار المواد الغذائية",
+      "احتمال إضراب مهنيي النقل وغضب شعبي"
+    ],
+    "modifiers": {
+      "inflationDelta": 0.6,
+      "approvalDelta": -4.5,
+      "socialTensionDelta": 6,
+      "revenueDelta": 0.7,
+      "demographicSatisfactionDelta": {
+        "workers": -6,
+        "low_income": -5,
+        "middle_income": -4
+      }
+    }
+  },
+  {
+    "id": "direct_social_assistance_increase",
+    "category": "social",
+    "titleEn": "Expansion of Direct Social Assistance (ASD)",
+    "titleAr": "رفع مخصصات الدعم الاجتماعي المباشر للأسر الهشة",
+    "descriptionEn": "Increase monthly child allowances and minimum vulnerable family grants from 500 MAD to 800 MAD via the Unified Social Register (RSU).",
+    "descriptionAr": "الرفع من قيمة الإعانات الشهرية للأطفال والأسر الهشة من 500 إلى 800 درهم شهرياً عبر السجل الاجتماعي الموحد.",
+    "upfrontCostBillionMAD": 1,
+    "monthlyCostBillionMAD": 0.9,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Directly combats extreme poverty among 3.6 million households",
+      "Significantly reduces rural and peri-urban social unrest"
+    ],
+    "expectedProsAr": [
+      "محاربة الفقر المدقع لحوالي 3.6 مليون أسرة",
+      "تهدئة الاحتقان الاجتماعي في القرى والأحياء الهامشية"
+    ],
+    "expectedRisksEn": [
+      "Substantial recurring drain on central treasury reserves"
+    ],
+    "expectedRisksAr": [
+      "عبء مالي شهري ثقيل ومستمر على الخزينة العامة"
+    ],
+    "modifiers": {
+      "socialTensionDelta": -6,
+      "approvalDelta": 6.5,
+      "demographicSatisfactionDelta": {
+        "low_income": 12,
+        "retirees": 6,
+        "farmers": 7
+      },
+      "regionalSatisfactionDelta": {
+        "oriental": 5,
+        "draa_tafilalet": 6,
+        "beni_mellal_khenifra": 5
+      }
+    }
+  },
+  {
+    "id": "butane_gas_subsidy_reform",
+    "category": "subsidies",
+    "titleEn": "Targeted Gas Cylinder Compensation De-capping",
+    "titleAr": "إصلاح صندوق المقاصة لغاز البوتان (البوطا)",
+    "descriptionEn": "Gradually reduce state subsidy on 12kg butane gas cylinders by 10 MAD per bottle while channeling savings into targeted digital direct aid.",
+    "descriptionAr": "التقليص التدريجي لدعم قنينات غاز البوتان 12 كلغ بـ 10 دراهم للقنينة مع توجيه الوفورات لدعم العائلات المستحقة مباشرة.",
+    "upfrontCostBillionMAD": 0.1,
+    "monthlyCostBillionMAD": -0.5,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Saves 6 Billion MAD per year from wasteful blanket subsidies"
+    ],
+    "expectedProsAr": [
+      "اقتصاد 6 ملايير درهم سنوياً من الدعم غير الموجه"
+    ],
+    "expectedRisksEn": [
+      "Increases agricultural greenhouse pumping costs and street food prices",
+      "Public sensitivity"
+    ],
+    "expectedRisksAr": [
+      "ارتفاع كلفة الضخ الفلاحي بالبيوت المغطاة ووجبات الشارع",
+      "حساسية شعبية شديدة"
+    ],
+    "modifiers": {
+      "inflationDelta": 0.4,
+      "socialTensionDelta": 4.5,
+      "approvalDelta": -3.5,
+      "revenueDelta": 0.5,
+      "demographicSatisfactionDelta": {
+        "farmers": -5,
+        "low_income": -4
+      }
+    }
+  },
+  {
+    "id": "wheat_bread_price_shield",
+    "category": "subsidies",
+    "titleEn": "Strategic Soft Wheat & Flour Price Shield",
+    "titleAr": "تثبيت أسعار القمح اللين ودقيق الخبز المدعم (الفرينة)",
+    "descriptionEn": "Guarantee the price of basic bread at 1.20 MAD by fully compensating flour mills against international wheat price spikes.",
+    "descriptionAr": "ضمان بقاء ثمن الخبز العادي عند 1.20 درهم عبر تعويض المطاحن الصناعية عن تقلبات أسعار القمح بالبورصات العالمية.",
+    "upfrontCostBillionMAD": 0.5,
+    "monthlyCostBillionMAD": 0.35,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Maintains basic food stability and protects the poorest citizens",
+      "Prevents bread riots and violent strikes"
+    ],
+    "expectedProsAr": [
+      "حماية الاستقرار الغذائي للطبقات الشعبية",
+      "تفادي أي اضطرابات اجتماعية مرتبطة بالرغيف"
+    ],
+    "expectedRisksEn": [
+      "Exposes state budget to global wheat market speculation"
+    ],
+    "expectedRisksAr": [
+      "ارتهان ميزانية الدولة لتقلبات أسواق شيكاغو وباريس"
+    ],
+    "modifiers": {
+      "inflationDelta": -0.3,
+      "socialTensionDelta": -4,
+      "approvalDelta": 3.5,
+      "demographicSatisfactionDelta": {
+        "low_income": 8,
+        "workers": 5
+      }
+    }
+  },
+  {
+    "id": "minimum_wage_smig_raise",
+    "category": "employment",
+    "titleEn": "5% Statutory Minimum Wage (SMIG/SMAG) Increase",
+    "titleAr": "تفعيل الزيادة بنسبة 5% في الحد الأدنى للأجور (SMIG/SMAG)",
+    "descriptionEn": "Complete the social dialogue commitment raising industrial minimum wage to ~3,200 MAD and agricultural wage towards parity.",
+    "descriptionAr": "تنفيذ التزام الحوار الاجتماعي برفع الحد الأدنى للأجور في الصناعة إلى 3200 درهم وتقريب الحد الأدنى الفلاحي.",
+    "upfrontCostBillionMAD": 0.3,
+    "monthlyCostBillionMAD": 0.1,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Improves living standards for 1.4 million low-wage workers",
+      "Fulfills central union agreements, avoiding major strikes"
+    ],
+    "expectedProsAr": [
+      "تحسين معيشة 1.4 مليون عامل أجير",
+      "تنفيذ الاتفاقات مع النقابات وتفادي الإضرابات العامة"
+    ],
+    "expectedRisksEn": [
+      "Increases payroll burden on small textiles and craft businesses",
+      "Slight cost-push inflation"
+    ],
+    "expectedRisksAr": [
+      "زيادة كتلة الأجور على مقاولات النسيج والصناعات الصغرى",
+      "تضخم خفيف في كلفة الإنتاج"
+    ],
+    "modifiers": {
+      "inflationDelta": 0.3,
+      "unemploymentDelta": 0.1,
+      "socialTensionDelta": -3.5,
+      "approvalDelta": 3,
+      "demographicSatisfactionDelta": {
+        "workers": 9,
+        "business_owners": -5
+      }
+    }
+  },
+  {
+    "id": "forsa_and_awrach_youth_programs",
+    "category": "employment",
+    "titleEn": "Youth Entrepreneurship & Micro-Employment Program",
+    "titleAr": "توسيع برامج التشغيل المؤقت ومواكبة المقاولات الناشئة للشباب",
+    "descriptionEn": "Provide zero-interest seed loans of up to 100,000 MAD and community temporary employment contracts for 150,000 unemployed youth.",
+    "descriptionAr": "منح قروض شرفية ميسرة بدون فوائد تصل لـ 100 ألف درهم وعقود إدماج جهوية لـ 150 ألف شاب عاطل عن العمل.",
+    "upfrontCostBillionMAD": 3,
+    "monthlyCostBillionMAD": 0.2,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Immediate dip in youth unemployment statistics",
+      "Encourages localized innovation and trades"
+    ],
+    "expectedProsAr": [
+      "تخفيض فوري في نسب بطالة حاملي الشهادات",
+      "تشجيع المبادرة الذاتية والأنشطة المحلية"
+    ],
+    "expectedRisksEn": [
+      "High micro-credit default rates",
+      "Temporary nature of public works contracts"
+    ],
+    "expectedRisksAr": [
+      "نسب تعثر في سداد القروض الصغرى",
+      "طبيعة العقود غير القارة"
+    ],
+    "modifiers": {
+      "youthUnemploymentDelta": -1.8,
+      "unemploymentDelta": -0.6,
+      "approvalDelta": 3.5,
+      "socialTensionDelta": -3,
+      "demographicSatisfactionDelta": {
+        "young_people": 10,
+        "students": 6
+      },
+      "regionalSatisfactionDelta": {
+        "oriental": 4,
+        "fez_meknes": 4
+      }
+    }
+  },
+  {
+    "id": "civil_service_general_salary_raise",
+    "category": "employment",
+    "titleEn": "Civil Service Net Salary Increase (1,000 MAD)",
+    "titleAr": "إقرار الزيادة العامة في أجور موظفي الدولة (1000 درهم)",
+    "descriptionEn": "Implement the general 1,000 MAD net salary increase for all public sector civil servants across two tranches as negotiated in social dialogue.",
+    "descriptionAr": "صرف الزيادة العامة المقررة في أجور موظفي الإدارات العمومية والجماعات الترابية بقيمة 1000 درهم صافية شهرياً.",
+    "upfrontCostBillionMAD": 1,
+    "monthlyCostBillionMAD": 0.75,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Overwhelming satisfaction across teachers, nurses, and administrative officers",
+      "Dampens civil servant strike waves"
+    ],
+    "expectedProsAr": [
+      "ارتياح واسع لدى نساء ورجال التعليم والممرضين والموظفين",
+      "إنهاء موجات الإضرابات القطاعية"
+    ],
+    "expectedRisksEn": [
+      "Massive expansion of the national public wage bill (Masse salariale)"
+    ],
+    "expectedRisksAr": [
+      "تضخم كتلة الأجور بالميزانية العامة للدولة"
+    ],
+    "modifiers": {
+      "socialTensionDelta": -4.5,
+      "approvalDelta": 5,
+      "demographicSatisfactionDelta": {
+        "public_employees": 14,
+        "middle_income": 5
+      }
+    }
+  },
+  {
+    "id": "universal_amo_tadamoun_funding",
+    "category": "healthcare",
+    "titleEn": "Universal Health Insurance (AMO Tadamon) Full State Guarantee",
+    "titleAr": "التغطية المالية الكاملة للتأمين الإجباري عن المرض (AMO تضامن)",
+    "descriptionEn": "Fully subsidize mandatory medical insurance contributions for 11 million vulnerable citizens unable to pay CNSS dues.",
+    "descriptionAr": "تحمل ميزانية الدولة الكامل لاشتراكات التأمين الإجباري عن المرض لـ 11 مليون مواطن في وضعية هشاشة لدى الصندوق الوطني للضمان الاجتماعي.",
+    "upfrontCostBillionMAD": 2,
+    "monthlyCostBillionMAD": 0.8,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Free access to regional hospitals and reimbursed private prescription drugs",
+      "Historical achievement in social state construction"
+    ],
+    "expectedProsAr": [
+      "ولوج مجاني للمستشفيات العمومية وتعويض الأدوية",
+      "محطة تاريخية في إرساء ركائز الدولة الاجتماعية"
+    ],
+    "expectedRisksEn": [
+      "Overcrowding in university hospitals (CHU)",
+      "Rising pharmaceutical expenditure deficit"
+    ],
+    "expectedRisksAr": [
+      "اكتظاظ شديد بالمراكز الاستشفائية الجامعية",
+      "عجز صندوق تعويض الأدوية"
+    ],
+    "modifiers": {
+      "approvalDelta": 5.5,
+      "socialTensionDelta": -4,
+      "demographicSatisfactionDelta": {
+        "low_income": 12,
+        "retirees": 10,
+        "farmers": 8
+      }
+    }
+  },
+  {
+    "id": "regional_university_hospitals_program",
+    "category": "healthcare",
+    "titleEn": "New Regional University Hospitals (CHU) & Medical Schools",
+    "titleAr": "بناء وتجهيز المستشفيات الجامعية الجهوية الجديدة (CHU)",
+    "descriptionEn": "Construct and commission state-of-the-art university hospitals and medical faculties in Agadir, Tangier, Laâyoune, and Guelmim.",
+    "descriptionAr": "افتتاح وتجهيز مستشفيات جامعية وكليات طب وصيدلة جديدة بأكادير وطنجة والعيون وكلميم لإنهاء المركزية الاستشفائية.",
+    "upfrontCostBillionMAD": 9,
+    "monthlyCostBillionMAD": 0.25,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Doubles specialized doctor training and clinical beds in outer regions",
+      "Ends patient travel to Rabat/Casablanca for oncology and cardiology"
+    ],
+    "expectedProsAr": [
+      "مضاعفة أعداد الأطباء وتوفير أسرة الإنعاش بالجهات",
+      "إنهاء معاناة تنقل مرضى الأورام والقلب نحو الرباط والبيضاء"
+    ],
+    "expectedRisksEn": [
+      "Shortage of medical staff and brain drain of doctors to Europe"
+    ],
+    "expectedRisksAr": [
+      "صعوبة توفير الأطر الطبية وهجرة الأطباء نحو الخارج"
+    ],
+    "modifiers": {
+      "approvalDelta": 4,
+      "socialTensionDelta": -3,
+      "regionalSatisfactionDelta": {
+        "souss_massa": 8,
+        "tangier_tetouan_al_hoceima": 6,
+        "laayoune_sakia_el_hamra": 8,
+        "guelmim_oued_noun": 7
+      }
+    }
+  },
+  {
+    "id": "pioneer_schools_rollout",
+    "category": "education",
+    "titleEn": "National Rollout of Pioneer Schools (Écoles Pionnières)",
+    "titleAr": "تعميم نموذج مدارس الريادة في التعليم الابتدائي والإعدادي",
+    "descriptionEn": "Expand TaRL (Teaching at the Right Level) pedagogy and digitized classrooms to 4,000 public primary and middle schools.",
+    "descriptionAr": "تعميم مقاربة التدريس وفق المستوى المناسب (TaRL) وتجهيز الفصول بالوسائط الرقمية في 4000 مدرسة ابتدائية وإعدادية.",
+    "upfrontCostBillionMAD": 3.5,
+    "monthlyCostBillionMAD": 0.15,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Measurable 35% jump in reading, mathematics, and science proficiency",
+      "Restores public trust in the state education system"
+    ],
+    "expectedProsAr": [
+      "قفزة بنسبة 35% في تمكن التلاميذ من القراءة والحساب واللغات",
+      "استرجاع ثقة الأسر في المدرسة العمومية"
+    ],
+    "expectedRisksEn": [
+      "Requires intensive teacher training logistics"
+    ],
+    "expectedRisksAr": [
+      "حاجة لوجستية مستمرة لتكوين الأساتذة"
+    ],
+    "modifiers": {
+      "approvalDelta": 3.5,
+      "demographicSatisfactionDelta": {
+        "middle_income": 6,
+        "low_income": 5,
+        "students": 4
+      }
+    }
+  },
+  {
+    "id": "university_scholarship_minha_raise",
+    "category": "education",
+    "titleEn": "50% University Student Scholarship (Minha) Increase",
+    "titleAr": "الرفع من قيمة المنحة الجامعية للطلبة بنسبة 50%",
+    "descriptionEn": "Increase university student quarterly grants from 1,900 MAD to 2,850 MAD and expand student university restaurants and dormitories.",
+    "descriptionAr": "الرفع من قيمة المنحة الجامعية الفصلية وتوسيع دور الطالب والأحياء والمطاعم الجامعية بالمدن الجامعية.",
+    "upfrontCostBillionMAD": 1.2,
+    "monthlyCostBillionMAD": 0.18,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Defuses university campus unrest and protests",
+      "Prevents rural student dropouts"
+    ],
+    "expectedProsAr": [
+      "نزع فتيل الاحتجاجات بالحرم الجامعي وتخفيف الاحتقان الطلابي",
+      "الحد من الهدر الجامعي لطلبة القرى"
+    ],
+    "expectedRisksEn": [
+      "Ongoing budget expenditure commitment"
+    ],
+    "expectedRisksAr": [
+      "التزام مالي إضافي سنوي دائم"
+    ],
+    "modifiers": {
+      "socialTensionDelta": -3.5,
+      "approvalDelta": 3,
+      "demographicSatisfactionDelta": {
+        "students": 16,
+        "young_people": 8
+      }
+    }
+  },
+  {
+    "id": "high_speed_rail_marrakech_agadir",
+    "category": "infrastructure",
+    "titleEn": "Al Boraq High-Speed Train Extension to Marrakech & Agadir",
+    "titleAr": "تمديد قطار البراق فائق السرعة نحو مراكش وأكادير (LGV)",
+    "descriptionEn": "Construct the high-speed rail line connecting Kenitra, Casablanca, Marrakech, and onward through the Atlas to Agadir.",
+    "descriptionAr": "إنجاز خط القطار فائق السرعة الرابط بين القنيطرة والدار البيضاء ومراكش وصولاً إلى أكادير عبر الأطلس الكبير.",
+    "upfrontCostBillionMAD": 25,
+    "monthlyCostBillionMAD": 0.35,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Slashes travel time (Casablanca to Marrakech in 1 hour; Marrakech to Agadir in 1 hour)",
+      "Transforms tourism and commerce for World Cup 2030"
+    ],
+    "expectedProsAr": [
+      "تقليص مدة السفر (ساعة بين البيضاء ومراكش وساعة نحو أكادير)",
+      "طفرة سياحية وتجارية كبرى لاستضافة مونديال 2030"
+    ],
+    "expectedRisksEn": [
+      "Heavy capital debt borrowing and import of rail materials"
+    ],
+    "expectedRisksAr": [
+      "ارتفاع الديون السيادية المخصصة للتجهيز واستيراد المعدات"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.7,
+      "fdiBillionMAD": 2.2,
+      "approvalDelta": 4.5,
+      "regionalSatisfactionDelta": {
+        "marrakech_safi": 8,
+        "souss_massa": 10,
+        "casablanca_settat": 5
+      }
+    }
+  },
+  {
+    "id": "nador_west_med_commissioning",
+    "category": "infrastructure",
+    "titleEn": "Nador West Med Megaport & Industrial Energy Zone",
+    "titleAr": "تشغيل ميناء الناظور غرب المتوسط والمنطقة الصناعية الطاقية",
+    "descriptionEn": "Complete port infrastructure and hydrocarbon / container terminals at Betoya Bay to establish the Mediterranean's second mega-hub.",
+    "descriptionAr": "استكمال البنية التحتية لميناء الناظور غرب المتوسط ومحطات الحاويات والمحروقات لإرساء قطب بحري وصناعي ثان بالمتوسط.",
+    "upfrontCostBillionMAD": 11,
+    "monthlyCostBillionMAD": 0.15,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Industrializes the Oriental region and creates 50,000 direct and indirect jobs",
+      "Cements maritime supremacy"
+    ],
+    "expectedProsAr": [
+      "تثمين اقتصاد جهة الشرق وتوفير 50 ألف منصب شغل مباشر وغير مباشر",
+      "ترسيخ الريادة المينائية البحرية"
+    ],
+    "expectedRisksEn": [
+      "Competition with existing Tanger Med capacity"
+    ],
+    "expectedRisksAr": [
+      "تحدي جذب الخطوط الملاحية الدولية بسرعة"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.5,
+      "unemploymentDelta": -0.4,
+      "fdiBillionMAD": 1.8,
+      "approvalDelta": 3.5,
+      "regionalSatisfactionDelta": {
+        "oriental": 12,
+        "fez_meknes": 4
+      }
+    }
+  },
+  {
+    "id": "dakhla_atlantic_port_megaproject",
+    "category": "infrastructure",
+    "titleEn": "Dakhla Atlantic Deepwater Megaport Completion",
+    "titleAr": "إتمام ميناء الداخلة الأطلسي والواجهة البحرية الإفريقية",
+    "descriptionEn": "Fast-track construction of the 12-billion MAD Dakhla Atlantic deepwater port to anchor Atlantic Africa connectivity.",
+    "descriptionAr": "تسريع أشغال ميناء الداخلة الأطلسي في المياه العميقة ليكون بوابة الربط الأطلسي مع بلدان غرب إفريقيا والساحل.",
+    "upfrontCostBillionMAD": 12,
+    "monthlyCostBillionMAD": 0.15,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Opens direct oceanic trade route for Sahel countries",
+      "Catalyzes fisheries, green hydrogen, and logistics in southern provinces"
+    ],
+    "expectedProsAr": [
+      "فتح واجهة بحرية استراتيجية لدول الساحل الإفريقي",
+      "طفرة صناعية لصيد الأسماك والطاقة المتجددة بالصحراء المغربية"
+    ],
+    "expectedRisksEn": [
+      "Long construction timeline before first revenue payback"
+    ],
+    "expectedRisksAr": [
+      "طول فترة الإنجاز قبل بدء تحصيل العائدات"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.4,
+      "fdiBillionMAD": 1.5,
+      "approvalDelta": 3,
+      "regionalSatisfactionDelta": {
+        "dakhla_oued_ed_dahab": 14,
+        "laayoune_sakia_el_hamra": 6
+      }
+    }
+  },
+  {
+    "id": "green_hydrogen_morocco_offer",
+    "category": "energy",
+    "titleEn": "Morocco Green Hydrogen Offer Execution",
+    "titleAr": "تفعيل 'عرض المغرب' للهيدروجين الأخضر والأمونياك",
+    "descriptionEn": "Allocate 300,000 hectares of public land in Guelmim and Dakhla for international gigawatt solar/wind green hydrogen consortia.",
+    "descriptionAr": "تخصيص 300 ألف هكتار من العقار العمومي بكلميم والداخلة لمشاريع التحالفات الدولية لإنتاج الهيدروجين الأخضر.",
+    "upfrontCostBillionMAD": 3,
+    "monthlyCostBillionMAD": -0.2,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Attracts over 100 Billion MAD in multi-year international consortium FDI",
+      "Establishes green export pipeline to Europe"
+    ],
+    "expectedProsAr": [
+      "جلب استثمارات دولية تتجاوز 100 مليار درهم على مراحل",
+      "تصدير الطاقة النظيفة عبر الأنابيب نحو أوروبا"
+    ],
+    "expectedRisksEn": [
+      "Land entitlement negotiations with pastoral tribes"
+    ],
+    "expectedRisksAr": [
+      "تدبير الأراضي السلالية والرعوية مع القبائل المحلية"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.5,
+      "fdiBillionMAD": 3,
+      "approvalDelta": 3,
+      "regionalSatisfactionDelta": {
+        "guelmim_oued_noun": 8,
+        "dakhla_oued_ed_dahab": 7
+      }
+    }
+  },
+  {
+    "id": "rooftop_solar_net_metering",
+    "category": "energy",
+    "titleEn": "Residential Rooftop Solar & Net Metering Law",
+    "titleAr": "قانون الإنتاج الذاتي للطاقة الشمسية وربط المنازل بالشبكة",
+    "descriptionEn": "Permit households and SMEs to install rooftop solar panels and sell surplus clean electricity back to ONEE at regulated feed-in tariffs.",
+    "descriptionAr": "السماح للأسر والمقاولات بتركيب ألواح شمسية فوق الأسطح وبيع الفائض للمكتب الوطني للكهرباء بتعريفة تشجيعية.",
+    "upfrontCostBillionMAD": 0.8,
+    "monthlyCostBillionMAD": 0.05,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Reduces household monthly electricity utility bills by 40%",
+      "Accelerates renewable share to 52% target"
+    ],
+    "expectedProsAr": [
+      "تخفيض فواتير الكهرباء على الأسر والمصانع بـ 40%",
+      "تسريع بلوغ هدف 52% من الطاقات النظيفة"
+    ],
+    "expectedRisksEn": [
+      "Reduces ONEE state utility grid transmission revenues"
+    ],
+    "expectedRisksAr": [
+      "تراجع نسبي في مداخيل المكتب الوطني للكهرباء"
+    ],
+    "modifiers": {
+      "approvalDelta": 3.5,
+      "socialTensionDelta": -2,
+      "demographicSatisfactionDelta": {
+        "middle_income": 7,
+        "business_owners": 6
+      }
+    }
+  },
+  {
+    "id": "generation_green_farmer_support",
+    "category": "agriculture",
+    "titleEn": "Generation Green Smallholder Resilience Fund",
+    "titleAr": "صندوق دعم صمود صغار الفلاحين (استراتيجية الجيل الأخضر)",
+    "descriptionEn": "Provide subsidized certified drought-tolerant barley and wheat seeds, livestock feed, and solar pumping grants to 600,000 small rural farmers.",
+    "descriptionAr": "توفير بذور الحبوب المقاومة للجفاف والأعلاف المدعمة ومنح الطاقة الشمسية للضخ لـ 600 ألف فلاح قروي صغير.",
+    "upfrontCostBillionMAD": 4.5,
+    "monthlyCostBillionMAD": 0.2,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Safeguards national livestock flock and stabilizes dairy/red meat prices",
+      "Prevents rural exodus to slum outskirts"
+    ],
+    "expectedProsAr": [
+      "حماية القطيع الوطني واستقرار أسعار اللحوم والحليب",
+      "الحد من الهجرة القروية نحو هوامش المدن"
+    ],
+    "expectedRisksEn": [
+      "Requires tight inspection to prevent black-market feed diversion"
+    ],
+    "expectedRisksAr": [
+      "ضرورة مراقبة مسالك التوزيع لمنع المضاربة في الأعلاف"
+    ],
+    "modifiers": {
+      "socialTensionDelta": -3.5,
+      "approvalDelta": 4,
+      "demographicSatisfactionDelta": {
+        "farmers": 14,
+        "low_income": 4
+      },
+      "regionalSatisfactionDelta": {
+        "beni_mellal_khenifra": 7,
+        "fez_meknes": 6,
+        "marrakech_safi": 5
+      }
+    }
+  },
+  {
+    "id": "red_meat_import_duty_waiver",
+    "category": "agriculture",
+    "titleEn": "Red Meat & Cattle Import Duty and VAT Exemption",
+    "titleAr": "تعليق الرسوم الجمركية والضريبة على استيراد الأبقار واللحوم",
+    "descriptionEn": "Suspend customs duties and VAT on imported beef and sheep from Spain and South America to lower domestic retail meat prices from 110 MAD to 85 MAD/kg.",
+    "descriptionAr": "تعليق رسوم الجمارك والضريبة على القيمة المضافة لاستيراد العجول والأغنام لخفض أسعار اللحوم في المجازر من 110 إلى 85 درهم/كلغ.",
+    "upfrontCostBillionMAD": 0.2,
+    "monthlyCostBillionMAD": 0.15,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Quick drop in meat prices across Moroccan souks and butcher shops",
+      "Protects household purchasing power ahead of holidays"
+    ],
+    "expectedProsAr": [
+      "انخفاض سريع لأسعار اللحوم بالأسواق ومحلات الجزارة",
+      "حماية القدرة الشرائية للأسر قبيل الأعياد"
+    ],
+    "expectedRisksEn": [
+      "Discontent among domestic livestock breeders facing cheap imports",
+      "Loss of customs receipts"
+    ],
+    "expectedRisksAr": [
+      "غضب الكسابة المحليين من منافسة اللحوم المستوردة",
+      "فقدان موارد جمركية"
+    ],
+    "modifiers": {
+      "inflationDelta": -0.4,
+      "socialTensionDelta": -2.5,
+      "approvalDelta": 3,
+      "demographicSatisfactionDelta": {
+        "middle_income": 5,
+        "low_income": 6,
+        "farmers": -6
+      }
+    }
+  },
+  {
+    "id": "direct_housing_aid_program",
+    "category": "housing",
+    "titleEn": "Direct Housing Aid Subsidy (Daam Sakane)",
+    "titleAr": "برنامج الدعم المباشر لاقتناء السكن الرئيسي (دعم السكن)",
+    "descriptionEn": "Provide direct state cash grants of 100,000 MAD for homes under 300,000 MAD and 70,000 MAD for homes under 700,000 MAD to first-time buyers.",
+    "descriptionAr": "صرف دعم مالي مباشر بقيمة 100 ألف درهم للسكن الأقل من 300 ألف درهم و70 ألف درهم للسكن بين 300 و700 ألف درهم للراغبين في التملك.",
+    "upfrontCostBillionMAD": 3.5,
+    "monthlyCostBillionMAD": 0.3,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Enables 70,000 young families per year to own modern apartments",
+      "Revitalizes real estate construction and artisan trades"
+    ],
+    "expectedProsAr": [
+      "تمكين 70 ألف أسرة شابة سنوياً من امتلاك شقق حديثة",
+      "إنعاش قطاع البناء والعقار والمهن الحرفية"
+    ],
+    "expectedRisksEn": [
+      "Risk of developer price inflation capturing the subsidy"
+    ],
+    "expectedRisksAr": [
+      "خطر قيام بعض المنعشين العقاريين برفع الأسعار لابتلاع الدعم"
+    ],
+    "modifiers": {
+      "approvalDelta": 4.5,
+      "socialTensionDelta": -3,
+      "demographicSatisfactionDelta": {
+        "young_people": 10,
+        "middle_income": 8,
+        "private_employees": 7
+      }
+    }
+  },
+  {
+    "id": "zero_slums_urban_renewal",
+    "category": "housing",
+    "titleEn": "Cities Without Slums (Villes Sans Bidonvilles) Accelerated Eradication",
+    "titleAr": "تسريع القضاء على دور الصفيح في البيضاء وسلا وفاس",
+    "descriptionEn": "Rehouse 40,000 shantytown families in Casablanca (Douar Waskh, Kariane), Salé, and Fez with furnished flats and social amenities.",
+    "descriptionAr": "إعادة إسكان 40 ألف أسرة من قاطني دور الصفيح بالدار البيضاء وسلا وفاس في شقق لائقة ومجهزة بالبنيات الاجتماعية.",
+    "upfrontCostBillionMAD": 5,
+    "monthlyCostBillionMAD": 0.2,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Eliminates unsafe informal settlements and restores dignity",
+      "Reduces urban crime and youth disenfranchisement"
+    ],
+    "expectedProsAr": [
+      "القضاء على السكن غير اللائق واسترجاع الكرامة",
+      "تقليص معدلات الجريمة والإقصاء الحضري"
+    ],
+    "expectedRisksEn": [
+      "Resistance to relocation far from city center employment"
+    ],
+    "expectedRisksAr": [
+      "صعوبات إعادة التوطين بعيداً عن مناطق عمل المواطنين"
+    ],
+    "modifiers": {
+      "socialTensionDelta": -4,
+      "approvalDelta": 3.5,
+      "demographicSatisfactionDelta": {
+        "low_income": 10
+      },
+      "regionalSatisfactionDelta": {
+        "casablanca_settat": 6,
+        "rabat_sale_kenitra": 5,
+        "fez_meknes": 4
+      }
+    }
+  },
+  {
+    "id": "atlantic_african_states_initiative",
+    "category": "foreign",
+    "titleEn": "Royal Atlantic Initiative for Sahel Access & Integration",
+    "titleAr": "تفعيل المبادرة الأطلسية الملكية لتمكين دول الساحل من الولوج للبحر",
+    "descriptionEn": "Open Moroccan road, port, and rail logistics networks to landlocked Sahel nations (Mali, Niger, Burkina Faso, Chad) and deepen commercial corridors.",
+    "descriptionAr": "وضع البنيات التحتية المينائية والطرقية المغربية رهن إشارة دول الساحل الإفريقي لفك عزلتها وتعزيز الشراكة جنوب-جنوب.",
+    "upfrontCostBillionMAD": 2,
+    "monthlyCostBillionMAD": 0.1,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Dramatically reinforces Moroccan diplomatic and trade leadership in Africa",
+      "Opens fast-growing export markets for Moroccan manufactured goods"
+    ],
+    "expectedProsAr": [
+      "ترسيخ القيادة الدبلوماسية والتجارية للمغرب في إفريقيا",
+      "فتح أسواق واعدة للمنتوجات والشركات المغربية"
+    ],
+    "expectedRisksEn": [
+      "Political instability and security threats in the Sahel corridor"
+    ],
+    "expectedRisksAr": [
+      "تحديات عدم الاستقرار الأمني في بعض دول منطقة الساحل"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.4,
+      "approvalDelta": 4,
+      "foreignRelationDelta": {
+        "mauritania": 15,
+        "united_nations": 10,
+        "usa": 8,
+        "france": 8
+      }
+    }
+  },
+  {
+    "id": "nigeria_morocco_gas_pipeline_accords",
+    "category": "foreign",
+    "titleEn": "Nigeria-Morocco Gas Pipeline Strategic Financing Pacts",
+    "titleAr": "توقيع اتفاقيات التمويل النهائي لأنبوب الغاز الإفريقي الأطلسي",
+    "descriptionEn": "Sign definitive co-financing agreements with West African states, international sovereign funds, and European energy buyers for the 5,600 km pipeline.",
+    "descriptionAr": "إبرام اتفاقيات التمويل النهائي لأنبوب الغاز نيجيريا-المغرب مع دول غرب إفريقيا والصناديق السيادية لربط 13 دولة نحو أوروبا.",
+    "upfrontCostBillionMAD": 8,
+    "monthlyCostBillionMAD": 0.15,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Secures Morocco's long-term natural gas autonomy",
+      "Positions the Kingdom as Europe's primary clean gas transit hub"
+    ],
+    "expectedRisksEn": [
+      "Geopolitical frictions and vast capital outlay"
+    ],
+    "expectedProsAr": [
+      "تأمين السيادة الطاقية للمملكة من الغاز الطبيعي",
+      "جعل المغرب الممر الرئيسي للغاز نحو الاتحاد الأوروبي"
+    ],
+    "expectedRisksAr": [
+      "حجم التمويل الضخم والتحديات الجيوسياسية الإقليمية"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.6,
+      "fdiBillionMAD": 3.5,
+      "approvalDelta": 4.5,
+      "foreignRelationDelta": {
+        "european_union": 12,
+        "spain": 10,
+        "germany": 8,
+        "algeria": -15
+      }
+    }
+  },
+  {
+    "id": "morocco_world_cup_2030_infra_pact",
+    "category": "infrastructure",
+    "titleEn": "FIFA World Cup 2030 Stadium & Airport Modernization",
+    "titleAr": "مخطط تأهيل الملاعب والمطارات لمونديال 2030 (المغرب-إسبانيا-البرتغال)",
+    "descriptionEn": "Renovate Grand Stade de Casablanca (Benslimane), Rabat Prince Moulay Abdellah, Tangier, Marrakech, Agadir, and Fez stadiums alongside airport expansions.",
+    "descriptionAr": "بناء الملعب الكبير للدار البيضاء ببنسليمان وتطوير ملاعب الرباط وطنجة ومراكش وأكادير وفاس وتوسعة المطارات استعداداً لمونديال 2030.",
+    "upfrontCostBillionMAD": 18,
+    "monthlyCostBillionMAD": 0.3,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Massive tourism surge and global international visibility",
+      "Triples airport reception capacity at Casa, Rabat, and Marrakech"
+    ],
+    "expectedProsAr": [
+      "طفرة سياحية كبرى وإشعاع عالمي للمملكة",
+      "مضاعفة الطاقة الاستيعابية للمطارات المغربية"
+    ],
+    "expectedRisksEn": [
+      "Risk of stadium construction cost overruns and maintenance post-tournament"
+    ],
+    "expectedRisksAr": [
+      "خطر تضخم نفقات البناء وأعباء الصيانة بعد البطولة"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.8,
+      "fdiBillionMAD": 2.8,
+      "approvalDelta": 6,
+      "socialTensionDelta": -3,
+      "foreignRelationDelta": {
+        "spain": 12,
+        "portugal": 12
+      }
+    }
+  },
+  {
+    "id": "digital_administration_anti_corruption",
+    "category": "digital",
+    "titleEn": "Zero-Paper Digital Public Administration & Anti-Corruption Act",
+    "titleAr": "قانون الرقمنة الشاملة للمساطر الإدارية والشفافية ومحاربة الرشوة",
+    "descriptionEn": "Mandate 100% digital issuance of commercial licenses, building permits, and public procurement bidding to eliminate bribery and red tape.",
+    "descriptionAr": "إلزامية رقمنة الرخص التجارية ورخص البناء والصفقات العمومية بالكامل لقطع الطريق على الرشوة والبيروقراطية وتسهيل الاستثمار.",
+    "upfrontCostBillionMAD": 1.5,
+    "monthlyCostBillionMAD": 0.05,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Boosts Morocco's ease-of-doing-business ranking",
+      "Restores public trust in state institutions"
+    ],
+    "expectedProsAr": [
+      "تحسين ترتيب المغرب في مناخ الأعمال وجذب الاستثمار",
+      "تعزيز ثقة المواطن في الإدارة والنزاهة"
+    ],
+    "expectedRisksEn": [
+      "Resistance from bureaucratic middle managers and informal networks"
+    ],
+    "expectedRisksAr": [
+      "مقاومة التغيير من طرف بعض البيروقراطيين"
+    ],
+    "modifiers": {
+      "gdpGrowthDelta": 0.3,
+      "approvalDelta": 4,
+      "socialTensionDelta": -3.5,
+      "demographicSatisfactionDelta": {
+        "business_owners": 8,
+        "young_people": 6,
+        "middle_income": 5
+      }
+    }
+  },
+  {
+    "id": "national_defense_modernization",
+    "category": "security",
+    "titleEn": "Royal Armed Forces Modernization & Domestic Defense Industry",
+    "titleAr": "تحديث القوات المسلحة الملكية وتوطين الصناعات الدفاعية",
+    "descriptionEn": "Establish domestic defense manufacturing partnerships for drones, armored vehicles, and radar systems while strengthening border surveillance.",
+    "descriptionAr": "إرساء شراكات صناعية لتصنيع الطائرات المسيرة والمدرعات ورادارات المراقبة وتحديث ترسانة القوات المسلحة الملكية.",
+    "upfrontCostBillionMAD": 14,
+    "monthlyCostBillionMAD": 0.4,
+    "requiresParliamentApproval": true,
+    "implemented": false,
+    "expectedProsEn": [
+      "Guarantees deterrence and national territorial integrity",
+      "Transfers dual-use aerospace technology to domestic industry"
+    ],
+    "expectedProsAr": [
+      "صيانة الوحدة الترابية وتعزيز الردع الوطني",
+      "نقل التكنولوجيا المتقدمة وتطوير الكفاءات الهندسية المحلية"
+    ],
+    "expectedRisksEn": [
+      "Substantial allocation from the state expenditure budget"
+    ],
+    "expectedRisksAr": [
+      "استنزاف جزء هام من النفقات العامة"
+    ],
+    "modifiers": {
+      "approvalDelta": 3.5,
+      "foreignRelationDelta": {
+        "usa": 10,
+        "france": 6,
+        "algeria": -8
+      }
+    }
+  },
+  {
+    "id": "amazigh_official_language_acceleration",
+    "category": "culture",
+    "titleEn": "Accelerated Amazigh Language Integration in Public Services",
+    "titleAr": "المخطط المسرع لتفعيل الطابع الرسمي للأمازيغية في الإدارات والمحاكم",
+    "descriptionEn": "Deploy 5,000 certified Tamazight translators across courts, hospitals, and civil offices, alongside expanding Tifinagh school curriculum.",
+    "descriptionAr": "توظيف 5000 مترجم ومعاون باللغة الأمازيغية في المحاكم والمستشفيات والإدارات وتعميم تدريس تيفيناغ في المدارس.",
+    "upfrontCostBillionMAD": 0.8,
+    "monthlyCostBillionMAD": 0.08,
+    "requiresParliamentApproval": false,
+    "implemented": false,
+    "expectedProsEn": [
+      "Historic fulfillment of constitutional identity equality",
+      "Huge surge in regional satisfaction across Souss, Rif, and Atlas"
+    ],
+    "expectedProsAr": [
+      "تنزيل تاريخي للحقوق الدستورية للأمازيغية",
+      "ارتياح عميق في سوس والأطلس والريف ومختلف الجهات"
+    ],
+    "expectedRisksEn": [
+      "Requires ongoing pedagogical publishing and training budgets"
+    ],
+    "expectedRisksAr": [
+      "حاجة مستمرة لإعداد المقررات وتكوين الأطر"
+    ],
+    "modifiers": {
+      "socialTensionDelta": -3,
+      "approvalDelta": 3.5,
+      "demographicSatisfactionDelta": {
+        "farmers": 6,
+        "students": 5
+      },
+      "regionalSatisfactionDelta": {
+        "souss_massa": 8,
+        "beni_mellal_khenifra": 7,
+        "draa_tafilalet": 6,
+        "tangier_tetouan_al_hoceima": 5
+      }
+    }
+  }
+]

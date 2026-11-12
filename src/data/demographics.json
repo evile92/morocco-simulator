@@ -1,0 +1,112 @@
+[
+  {
+    "id": "young_people",
+    "nameEn": "Young People",
+    "nameAr": "الشباب",
+    "populationShare": 18.0,
+    "satisfaction": 44,
+    "turnoutPropensity": 42,
+    "partyLeanings": { "pam": 30, "rni": 22, "fgd": 18, "usfp": 12, "pjd": 10, "istiqlal": 8 },
+    "topConcerns": ["Youth Unemployment", "Affordable Housing", "Digital Opportunities", "Fair Meritocracy"]
+  },
+  {
+    "id": "workers",
+    "nameEn": "Industrial & Trade Workers",
+    "nameAr": "العمال والمهنيون",
+    "populationShare": 14.5,
+    "satisfaction": 52,
+    "turnoutPropensity": 58,
+    "partyLeanings": { "usfp": 32, "pps": 22, "pam": 18, "istiqlal": 14, "rni": 10, "fgd": 4 },
+    "topConcerns": ["Minimum Wage (SMIG)", "Labor Protections", "Workplace Safety", "Inflation on Groceries"]
+  },
+  {
+    "id": "public_employees",
+    "nameEn": "Public Civil Servants",
+    "nameAr": "موظفو القطاع العام",
+    "populationShare": 7.0,
+    "satisfaction": 64,
+    "turnoutPropensity": 78,
+    "partyLeanings": { "istiqlal": 28, "usfp": 24, "pps": 18, "rni": 14, "pam": 10, "pjd": 6 },
+    "topConcerns": ["Civil Service Salary Grid", "Retirement Age & Pension Solvency", "Career Promotion Rules"]
+  },
+  {
+    "id": "private_employees",
+    "nameEn": "Private Sector Employees",
+    "nameAr": "أجراء القطاع الخاص",
+    "populationShare": 15.0,
+    "satisfaction": 56,
+    "turnoutPropensity": 62,
+    "partyLeanings": { "rni": 30, "pam": 22, "uc": 16, "istiqlal": 14, "usfp": 10, "pjd": 8 },
+    "topConcerns": ["Income Tax Brackets (IR)", "Social Security (CNSS) Quality", "Cost of Urban Transport"]
+  },
+  {
+    "id": "farmers",
+    "nameEn": "Farmers & Rural Inhabitants",
+    "nameAr": "الفلاحون وسكان العالم القروي",
+    "populationShare": 12.5,
+    "satisfaction": 48,
+    "turnoutPropensity": 72,
+    "partyLeanings": { "istiqlal": 32, "mp": 30, "rni": 22, "pam": 12, "uc": 4 },
+    "topConcerns": ["Irrigation Water Quotas", "Fodder & Livestock Subsidies", "Drought Relief", "Rural Feeder Roads"]
+  },
+  {
+    "id": "business_owners",
+    "nameEn": "Business Owners & Employers",
+    "nameAr": "أرباب العمل والمقاولون",
+    "populationShare": 4.5,
+    "satisfaction": 68,
+    "turnoutPropensity": 70,
+    "partyLeanings": { "rni": 45, "uc": 25, "pam": 15, "istiqlal": 10, "usfp": 5 },
+    "topConcerns": ["Corporate Tax (IS)", "Payment Deadlines (Délais de paiement)", "Labor Code Flexibility", "Bank Credit Rates"]
+  },
+  {
+    "id": "students",
+    "nameEn": "University Students",
+    "nameAr": "الطلبة الجامعيون",
+    "populationShare": 6.0,
+    "satisfaction": 42,
+    "turnoutPropensity": 48,
+    "partyLeanings": { "fgd": 28, "pps": 22, "usfp": 18, "pam": 16, "pjd": 10, "rni": 6 },
+    "topConcerns": ["University Scholarships (Minha)", "Campus Housing", "Medical & Engineering Training Quality", "Graduation Job Prospects"]
+  },
+  {
+    "id": "retirees",
+    "nameEn": "Retirees & Elderly",
+    "nameAr": "المتقاعدون والمسنون",
+    "populationShare": 6.5,
+    "satisfaction": 58,
+    "turnoutPropensity": 82,
+    "partyLeanings": { "istiqlal": 35, "mp": 22, "rni": 18, "pam": 14, "usfp": 11 },
+    "topConcerns": ["Pension Indexation", "Chronic Disease Medical Coverage (AMO)", "Elderly Care Support"]
+  },
+  {
+    "id": "low_income",
+    "nameEn": "Low-Income Households",
+    "nameAr": "الأسر ذات الدخل المحدود",
+    "populationShare": 22.0,
+    "satisfaction": 46,
+    "turnoutPropensity": 60,
+    "partyLeanings": { "rni": 26, "istiqlal": 24, "mp": 18, "pjd": 14, "pam": 10, "usfp": 8 },
+    "topConcerns": ["Direct Social Assistance (ASD)", "Gas & Sugar Subsidies (Caisse de Compensation)", "Hospital Fees", "Basic Food Price Stability"]
+  },
+  {
+    "id": "middle_income",
+    "nameEn": "Middle-Income Households",
+    "nameAr": "الطبقة المتوسطة",
+    "populationShare": 32.0,
+    "satisfaction": 54,
+    "turnoutPropensity": 66,
+    "partyLeanings": { "rni": 28, "pam": 24, "istiqlal": 18, "usfp": 12, "pjd": 10, "pps": 5, "uc": 3 },
+    "topConcerns": ["Private School Tuition Costs", "Mortgage Interest Rates", "Income Tax Relief", "Quality of Public Transport"]
+  },
+  {
+    "id": "high_income",
+    "nameEn": "High-Income Households",
+    "nameAr": "الأسر الميسورة",
+    "populationShare": 5.0,
+    "satisfaction": 72,
+    "turnoutPropensity": 74,
+    "partyLeanings": { "rni": 48, "uc": 20, "pam": 18, "istiqlal": 10, "usfp": 4 },
+    "topConcerns": ["Capital Gains Tax", "Currency Exchange Freedom", "Security & Rule of Law", "Luxury Import Tariffs"]
+  }
+]

@@ -1,0 +1,712 @@
+[
+  {
+    "id": "severe_summer_drought_crisis",
+    "type": "environmental",
+    "titleEn": "Extreme Heatwave & Reservoir Depletion Alert",
+    "titleAr": "موجة حر قياسية وتراجع حاد في حقينة السدود",
+    "descriptionEn": "Several consecutive months of dry weather have dropped the national dam fill rate to dangerous lows. The Souss and Tensift agricultural basins face imminent irrigation cutoffs, threatening citrus crops and drinking water in Agadir and Marrakech.",
+    "descriptionAr": "تراجع منسوب مياه السدود إلى مستويات حرجة بعد أشهر من الجفاف وموجات الحرارة. أحواض سوس وتانسيفت تواجه خطر وقف مياه السقي عن الحوامض وتهديد إمدادات مياه الشرب بأكادير ومراكش.",
+    "severity": "critical",
+    "affectedRegionId": "souss_massa",
+    "choices": [
+      {
+        "id": "emergency_water_subsidy_and_tankers",
+        "textEn": "Mobilize 1.5 Billion MAD Emergency Tanker Fleet & Dig Rural Wells",
+        "textAr": "تخصيص 1.5 مليار درهم لتسيير شاحنات صهريجية وحفر آبار استعجالية بالقرى",
+        "costBillionMAD": 1.5,
+        "consequencesEn": [
+          "Relieves immediate thirst in 400 remote douars",
+          "Draws down state treasury reserves"
+        ],
+        "consequencesAr": [
+          "تأمين مياه الشرب لـ 400 دوار قروي معزول",
+          "اقتطاع مالي مباشر من احتياطي الخزينة"
+        ],
+        "effects": {
+          "socialTensionDelta": -4,
+          "approvalDelta": 3,
+          "budgetExpenseDelta": 1.5,
+          "regionalSatisfactionDelta": 6
+        }
+      },
+      {
+        "id": "prioritize_potable_cut_agriculture",
+        "textEn": "Prioritize Urban Drinking Water & Enforce 50% Agricultural Cut",
+        "textAr": "أولوية مياه الشرب للحواضر وتقليص مخصصات السقي الفلاحي بنسبة 50%",
+        "costBillionMAD": 0.1,
+        "consequencesEn": [
+          "Guarantees uninterrupted tap water in cities",
+          "Provokes anger and crop losses among commercial farmers"
+        ],
+        "consequencesAr": [
+          "ضمان استمرار الماء بالمدن الكبرى",
+          "غضب الفلاحين وتضرر صادرات البواكير"
+        ],
+        "effects": {
+          "socialTensionDelta": 3,
+          "approvalDelta": -2,
+          "gdpGrowthDelta": -0.2,
+          "regionalSatisfactionDelta": -5
+        }
+      },
+      {
+        "id": "accelerate_mobile_desalination_units",
+        "textEn": "Order Emergency Containerized Mobile Desalination Units",
+        "textAr": "اقتناء محطات متنقلة ومدمجة لتحلية مياه البحر والمياه الأجاجة",
+        "costBillionMAD": 2.2,
+        "consequencesEn": [
+          "Rapid technological relief for coastal farming",
+          "High immediate procurement cost"
+        ],
+        "consequencesAr": [
+          "حل تقني سريع للمناطق الساحلية",
+          "كلفة شراء مستعجلة مرتفعة"
+        ],
+        "effects": {
+          "socialTensionDelta": -5,
+          "approvalDelta": 4.5,
+          "budgetExpenseDelta": 2.2,
+          "regionalSatisfactionDelta": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "transport_fuel_strike",
+    "type": "social",
+    "titleEn": "National Truckers & Taxi Drivers Fuel Strike",
+    "titleAr": "إضراب وطني عام لمهنيي النقل وسائقي الشاحنات وسيارات الأجرة",
+    "descriptionEn": "Rising diesel pump prices have sparked widespread roadblocks and distribution strikes across Casablanca, Tangier, and Fez. Wholesale vegetable and fruit markets in wholesale hubs are seeing deliveries halted.",
+    "descriptionAr": "شهدت محاور النقل بالدار البيضاء وطنجة وفاس توقفاً لشاحنات نقل البضائع وسيارات الأجرة احتجاجاً على غلاء الكازوال، مما أدى إلى ارتباك تموين أسواق الجملة للخضر والفواكه.",
+    "severity": "high",
+    "affectedRegionId": "casablanca_settat",
+    "choices": [
+      {
+        "id": "grant_direct_transport_fuel_subsidies",
+        "textEn": "Release Exceptional Direct Fuel Allowance for Transport Professionals",
+        "textAr": "صرف دفعة استثنائية من الدعم المباشر لمهنيي النقل الطرقي",
+        "costBillionMAD": 1.2,
+        "consequencesEn": [
+          "Immediately suspends strikes and reopens transit corridors",
+          "Adds 1.2B MAD to government subsidy bill"
+        ],
+        "consequencesAr": [
+          "التعليق الفوري للإضراب وفتح طرق التموين",
+          "تحميل ميزانية الدولة 1.2 مليار درهم إضافية"
+        ],
+        "effects": {
+          "socialTensionDelta": -6,
+          "approvalDelta": 4,
+          "budgetExpenseDelta": 1.2,
+          "inflationDelta": -0.2
+        }
+      },
+      {
+        "id": "firm_negotiation_cap_margins",
+        "textEn": "Cap Fuel Wholesaler Profit Margins & Enforce Minimum Road Service",
+        "textAr": "تسقيف هوامش أرباح شركات المحروقات وتطبيق القانون لضمان السير",
+        "costBillionMAD": 0.1,
+        "consequencesEn": [
+          "Popular with consumers but creates legal friction with oil distributors",
+          "Gradually restores order"
+        ],
+        "consequencesAr": [
+          "ترحيب شعبي عارم بمحاصرة هوامش التوزيع واحتكاك مع شركات الوقود",
+          "استعادة تدريجية لحركة السير"
+        ],
+        "effects": {
+          "socialTensionDelta": -3,
+          "approvalDelta": 5,
+          "stabilityDelta": 2
+        }
+      },
+      {
+        "id": "firm_police_enforcement",
+        "textEn": "Enforce Freedom of Circulation with Security Requisition",
+        "textAr": "تطبيق مقتضيات تسخير الشاحنات وتأمين المحاور الطرقية بالقوة العمومية",
+        "costBillionMAD": 0.05,
+        "consequencesEn": [
+          "Reopens highways quickly",
+          "Intensifies trade union opposition and protest tension"
+        ],
+        "consequencesAr": [
+          "إعادة فتح الطرق بسرعة",
+          "تأجيج غضب النقابات والاحتقان العمالي"
+        ],
+        "effects": {
+          "socialTensionDelta": 4.5,
+          "approvalDelta": -4,
+          "stabilityDelta": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": "ocp_phosphate_windfall",
+    "type": "economic",
+    "titleEn": "Global Fertilizer Boom: OCP Record Export Revenue",
+    "titleAr": "طفرة عالمية في أسعار الأسمدة والفوسفاط: مداخيل قياسية لـ OCP",
+    "descriptionEn": "Global fertilizer demand has surged, sending Moroccan phosphate derivative prices skyward. State-owned OCP Group has announced a historic dividend contribution to the Treasury.",
+    "descriptionAr": "ارتفاع الطلب العالمي على الأسمدة الفوسفاطية قفز بعائدات مجمع الفوسفاط (OCP) إلى أرقام غير مسبوقة، معلناً عن ضخ أرباح استثنائية في الخزينة العامة للمملكة.",
+    "severity": "medium",
+    "affectedRegionId": "casablanca_settat",
+    "isOneTime": true,
+    "choices": [
+      {
+        "id": "reinvest_in_water_and_infrastructure",
+        "textEn": "Channel 8B MAD Windfall into Water Infrastructure & Sovereign Debt Paydown",
+        "textAr": "تخصيص الفائض لتسريع مشاريع الماء وتخفيض المديونية العمومية",
+        "costBillionMAD": -8,
+        "consequencesEn": [
+          "Lowers debt-to-GDP ratio by 1.2%",
+          "Bolsters sovereign credit rating and water security"
+        ],
+        "consequencesAr": [
+          "خفض نسبة الدين من الناتج الداخلي بـ 1.2%",
+          "تحسين التصنيف الائتماني السيادي للمملكة"
+        ],
+        "effects": {
+          "budgetExpenseDelta": -8,
+          "approvalDelta": 4,
+          "stabilityDelta": 5,
+          "gdpGrowthDelta": 0.4
+        }
+      },
+      {
+        "id": "distribute_citizen_social_dividend",
+        "textEn": "Distribute a One-Time 1,000 MAD Social Purchasing Power Bonus",
+        "textAr": "صرف منحة دعم استثنائية بقيمة 1000 درهم للأسر المعوزة",
+        "costBillionMAD": -4,
+        "consequencesEn": [
+          "Huge surge in government popularity and citizen morale",
+          "Fuels temporary domestic consumer demand"
+        ],
+        "consequencesAr": [
+          "قفزة تاريخية في شعبية الحكومة ورضا المواطنين",
+          "انتعاش فوري للتجارة الداخلية"
+        ],
+        "effects": {
+          "socialTensionDelta": -7,
+          "approvalDelta": 8.5,
+          "inflationDelta": 0.3,
+          "budgetExpenseDelta": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "university_medical_students_boycott",
+    "type": "social",
+    "titleEn": "Medical Students National Exam Boycott & Marches",
+    "titleAr": "مقاطعة وطنية لامتحانات كليات الطب والصيدلة واحتجاجات الطلبة",
+    "descriptionEn": "Medical students across all Moroccan university faculties have boycotted exams for several months to protest the reduction of medical studies from 7 to 6 years and internship hospital conditions.",
+    "descriptionAr": "طلبة كليات الطب والصيدلة بالمملكة يواصلون مقاطعة الامتحانات لعدة أشهر رفضاً لتقليص سنوات الدراسة من 7 إلى 6 سنوات وللمطالبة بتحسين ظروف التداريب الاستشفائية.",
+    "severity": "high",
+    "affectedRegionId": "rabat_sale_kenitra",
+    "choices": [
+      {
+        "id": "concede_dialogue_charter",
+        "textEn": "Sign Compromise Charter: Maintain Flexible 6th Year & Raise Internship Grants",
+        "textAr": "توقيع ميثاق تسوية: مرونة السنة السادسة ومضاعفة تعويضات مهام التداريب",
+        "costBillionMAD": 0.4,
+        "consequencesEn": [
+          "Ends academic year paralysis and saves the medical training cycle",
+          "Students return to hospitals satisfied"
+        ],
+        "consequencesAr": [
+          "إنقاذ السنة الجامعية من شبح السنة البيضاء وعودة الطلبة للمستشفيات",
+          "ارتياح واسع لدى الطلبة والأسر"
+        ],
+        "effects": {
+          "socialTensionDelta": -5,
+          "approvalDelta": 5,
+          "stabilityDelta": 3,
+          "budgetExpenseDelta": 0.4
+        }
+      },
+      {
+        "id": "strict_disciplinary_zero_year",
+        "textEn": "Hold Firm on Government Reform & Apply Strict Disciplinary Sanctions",
+        "textAr": "التشبث بالإصلاح الحكومي وتفعيل العقوبات التأديبية ضد المقاطعين",
+        "costBillionMAD": 0.05,
+        "consequencesEn": [
+          "Demonstrates executive firmness to coalition technocrats",
+          "Provokes wider solidarity strikes by professors and doctors"
+        ],
+        "consequencesAr": [
+          "إظهار حزم الدولة في إنفاذ الإصلاحات",
+          "موجة تضامن واسعة وإضراب للأطباء الداخليين والأساتذة"
+        ],
+        "effects": {
+          "socialTensionDelta": 6,
+          "approvalDelta": -4.5,
+          "stabilityDelta": -3.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "foreign_investment_gigafactory_deal",
+    "type": "international",
+    "titleEn": "Major Sino-European EV Battery Factory Final Agreement",
+    "titleAr": "توقيع استثمار استراتيجي صيني-أوروبي لإنتاج بطاريات السيارات بطنجة",
+    "descriptionEn": "A top international battery manufacturer selects Tangier Automotive City over European competitors for a 13-Billion MAD gigafactory to supply European EV assembly lines.",
+    "descriptionAr": "مجموعة صناعية كبرى تختار طنجة لتشييد مصنع عملاق للبطاريات الكهربائية باستثمار يناهز 13 مليار درهم لتزويد مصانع السيارات الأوروبية.",
+    "severity": "medium",
+    "affectedRegionId": "tangier_tetouan_al_hoceima",
+    "isOneTime": true,
+    "choices": [
+      {
+        "id": "welcome_and_fast_track_infrastructure",
+        "textEn": "Sign State Convention & Fast-Track High-Voltage Renewable Link",
+        "textAr": "المصادقة على الاتفاقية الاستثمارية وربط المصنع بالطاقة الريحية النظيفة",
+        "costBillionMAD": 1,
+        "consequencesEn": [
+          "Attracts 13B MAD in direct foreign investment",
+          "Creates 6,000 direct Moroccan engineering and technician positions"
+        ],
+        "consequencesAr": [
+          "جلب 13 مليار درهم من الاستثمارات الأجنبية المباشرة",
+          "خلق 6000 منصب شغل للمهندسين والتقنيين المغاربة"
+        ],
+        "effects": {
+          "gdpGrowthDelta": 0.5,
+          "approvalDelta": 4,
+          "regionalSatisfactionDelta": 8,
+          "budgetExpenseDelta": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "regional_border_tensions",
+    "type": "international",
+    "titleEn": "Eastern Border Military Maneuvers & Diplomatic Tensions",
+    "titleAr": "مناورات عسكرية على الحدود الشرقية وتصعيد في التوتر الدبلوماسي",
+    "descriptionEn": "Hostile statements and troop deployments along the Algerian border have raised regional alert levels. International partners urge de-escalation while Moroccan sovereignty remains firmly protected.",
+    "descriptionAr": "تصريحات عدائية وتحركات عسكرية على الحدود الشرقية ترفع حالة التأهب الأمني، بينما يدعو الشركاء الدوليون للتهدئة مع تأكيد المغرب على حماية حدوده.",
+    "severity": "high",
+    "affectedRegionId": "oriental",
+    "choices": [
+      {
+        "id": "reinforce_far_defenses_peaceful_deterrence",
+        "textEn": "Reinforce Royal Armed Forces Border Positions with Calm Deterrence",
+        "textAr": "تعزيز انتشار القوات المسلحة الملكية على الحدود في إطار الردع الهادئ",
+        "costBillionMAD": 1.5,
+        "consequencesEn": [
+          "Guarantees border security and displays patriotic determination",
+          "Incurs emergency military readiness logistics expenditure"
+        ],
+        "consequencesAr": [
+          "صيانة الأمن الحدودي والتفاف شعبي حول الجيش",
+          "تكاليف لوجستية لتأمين الجاهزية العسكرية"
+        ],
+        "effects": {
+          "approvalDelta": 4.5,
+          "socialTensionDelta": -2,
+          "budgetExpenseDelta": 1.5,
+          "stabilityDelta": 2
+        }
+      },
+      {
+        "id": "diplomatic_un_and_allies_offensive",
+        "textEn": "Launch UN & Partner Diplomatic Offensive Highlighting Provocations",
+        "textAr": "إطلاق حملة دبلوماسية في الأمم المتحدة ولدى الحلفاء لفضح الاستفزازات",
+        "costBillionMAD": 0.1,
+        "consequencesEn": [
+          "Gains diplomatic sympathy from US, Spain, and Arab allies",
+          "De-escalates potential flashpoints peacefully"
+        ],
+        "consequencesAr": [
+          "كسب دعم دبلوماسي صلب من واشنطن ومدريد والعواصم العربية",
+          "تطويق التوتر عبر القنوات الدبلوماسية"
+        ],
+        "effects": {
+          "approvalDelta": 3.5,
+          "stabilityDelta": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "sahara_buffer_zone_clash",
+    "type": "international",
+    "titleEn": "Buffer Zone Armed Provocation & Defense Readiness",
+    "titleAr": "استفزازات مسلحة في المنطقة العازلة خلف الجدار الأمني بالصحراء المغربية",
+    "descriptionEn": "Hostile militia incursions east of the Moroccan defense wall trigger immediate air-reconnaissance alarms. The Royal Armed Forces require immediate executive strategic guidance.",
+    "descriptionAr": "رصد تحركات لمليشيات مسلحة شرق الجدار الأمني الدفاعي في المنطقة العازلة. القوات المسلحة الملكية ترفع جاهزيتها وتطلب توجيهات سيادية للتعامل مع الخرق الميداني.",
+    "severity": "critical",
+    "affectedRegionId": "laayoune_sakia_el_hamra",
+    "isOneTime": false,
+    "choices": [
+      {
+        "id": "drone_surgical_strike_deterrence",
+        "textEn": "Execute Precision Drone Deterrence & Neutralize Armed Infiltrators",
+        "textAr": "توجيه ضربات دقيقة بسلاح المسيرات وتحييد المتسللين في إطار الدفاع المشروع",
+        "costBillionMAD": 0.35,
+        "consequencesEn": [
+          "Completely secures the buffer zone and restores sovereignty",
+          "High patriotic pride and popular backing for the government"
+        ],
+        "consequencesAr": [
+          "تطهير تام للمنطقة العازلة وتأكيد السيادة الميدانية للجيش المغربي",
+          "التفاف شعبي منقطع النظير وارتفاع شعبية الحكومة"
+        ],
+        "effects": {
+          "socialTensionDelta": -4,
+          "approvalDelta": 6,
+          "stabilityDelta": 4,
+          "budgetExpenseDelta": 0.35
+        }
+      },
+      {
+        "id": "un_minurso_emergency_filing",
+        "textEn": "Lodge Urgent UN Security Council Protest & Restrain Ground Patrols",
+        "textAr": "إحالة ملف الخرق العسكري فوراً على بعثة المينورسو ومجلس الأمن الدولي",
+        "costBillionMAD": 0.05,
+        "consequencesEn": [
+          "Demonstrates Moroccan diplomatic maturity and peace commitment",
+          "Mild domestic criticism regarding restraint"
+        ],
+        "consequencesAr": [
+          "إحراج الخصوم دبلوماسياً وإثبات احترام المغرب لاتفاق وقف إطلاق النار",
+          "انتقادات داخلية محدودة تطالب برد ميداني أشد حزماً"
+        ],
+        "effects": {
+          "socialTensionDelta": 1,
+          "approvalDelta": 1.5,
+          "stabilityDelta": 1
+        }
+      },
+      {
+        "id": "full_far_mobilization_zone_lockdown",
+        "textEn": "Order Strategic FAR Mobilization & Upgrade Air-Defense Radars",
+        "textAr": "إعلان حالة الاستنفار الشامل بالقوات المسلحة وتحديث منظومات الدفاع الجوي",
+        "costBillionMAD": 1.8,
+        "consequencesEn": [
+          "Absolute strategic military deterrence across all southern frontiers",
+          "Significant emergency defense outlay drawn from treasury"
+        ],
+        "consequencesAr": [
+          "ردع استراتيجي مطلق يمنع أي محاولة اقتراب مستقبلية من الجدار الأمني",
+          "كلفة مالية استثنائية تؤثر على السيولة بالخزينة العامة"
+        ],
+        "effects": {
+          "socialTensionDelta": -6,
+          "approvalDelta": 5,
+          "stabilityDelta": 6,
+          "budgetExpenseDelta": 1.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "world_cup_2030_stadiums_tender",
+    "type": "economic",
+    "titleEn": "2030 FIFA World Cup Infrastructure & LGV Financing Decision",
+    "titleAr": "تمويل البنية التحتية لمونديال 2030 والقطار فائق السرعة (مراكش - أكادير)",
+    "descriptionEn": "CAF & FIFA inspection schedules require locking the financing model for the Grand Stade Hassan II (Benslimane) and the Kenitra–Marrakech high-speed rail extension.",
+    "descriptionAr": "اللجنة المشتركة لمونديال 2030 تطالب بالحسم في هندسة تمويل ملعب الحسن الثاني الكبير ببنسليمان وتمديد القطار فائق السرعة القنيطرة–مراكش قبل انطلاق الأشغال الكبرى.",
+    "severity": "medium",
+    "isOneTime": true,
+    "affectedRegionId": "casablanca_settat",
+    "monthOccurred": 0,
+    "choices": [
+      {
+        "id": "wc2030_ppp_green_bond",
+        "textEn": "Launch Sovereign PPP & Green Infrastructure Bonds",
+        "textAr": "إطلاق شراكة بين القطاعين العام والخاص وإصدار سندات بنية تحتية خضراء",
+        "costBillionMAD": 2.2,
+        "consequencesEn": [
+          "Boosts construction employment and international investor confidence",
+          "Moderate upfront commitment from treasury"
+        ],
+        "consequencesAr": [
+          "انتعاش قوي لفرص الشغل وقطاع الأشغال العمومية وارتفاع جاذبية الاستثمار الأجنبي",
+          "تخصيص اعتمادات مرحلية من الخزينة لمواكبة الورش الملكي"
+        ],
+        "effects": {
+          "gdpGrowthDelta": 0.65,
+          "approvalDelta": 5,
+          "stabilityDelta": 3,
+          "socialTensionDelta": -4,
+          "regionalSatisfactionDelta": 7
+        }
+      },
+      {
+        "id": "wc2030_full_public_accelerate",
+        "textEn": "Direct Treasury Acceleration Across 6 Host Cities",
+        "textAr": "تمويل عمومي مباشر لتسريع جميع الملاعب والسكك الحديدية بـ 6 مدن مستضيفة",
+        "costBillionMAD": 5.5,
+        "consequencesEn": [
+          "Major prestige and job creation surge across the Kingdom",
+          "Places substantial strain on fiscal deficit and reserves"
+        ],
+        "consequencesAr": [
+          "دعم جماهيري واسع وحركية اقتصادية شاملة في ست جهات",
+          "ضغط مرتفع على الميزانية العمومية واحتياطي الخزينة"
+        ],
+        "effects": {
+          "gdpGrowthDelta": 0.9,
+          "inflationDelta": 0.3,
+          "approvalDelta": 8,
+          "stabilityDelta": 4,
+          "socialTensionDelta": -6,
+          "budgetExpenseDelta": 0.6
+        }
+      },
+      {
+        "id": "wc2030_phased_austerity",
+        "textEn": "Adopt Phased Capex & Renegotiate Contractor Timelines",
+        "textAr": "اعتماد تمويل تدريجي متقشف ومراجعة عقود الإنجاز مع المقاولات",
+        "costBillionMAD": 0.8,
+        "consequencesEn": [
+          "Preserves fiscal headroom and sovereign rating",
+          "Draws criticism from hospitality and construction federations"
+        ],
+        "consequencesAr": [
+          "حماية التوازنات المالية وتقليص الحاجة للاستدانة الخارجية",
+          "تباطؤ وتيرة الورش وانتقادات من مقاولات البناء والسياحة"
+        ],
+        "effects": {
+          "gdpGrowthDelta": -0.2,
+          "approvalDelta": -2.5,
+          "socialTensionDelta": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "social_dialogue_april_round",
+    "type": "social",
+    "titleEn": "National Social Dialogue Round with Labor Confederations (الحوار الاجتماعي)",
+    "titleAr": "جولة الحوار الاجتماعي المركزية مع النقابات والاتحاد العام لمقاولات المغرب",
+    "descriptionEn": "Major trade unions (UMT, CDT, UGTM) demand income tax brackets relief, public wage increases, and private SMIG minimum wage revision ahead of Labor Day.",
+    "descriptionAr": "المركزيات النقابية الأكثر تمثيلية تدعو إلى زيادة عامة في الأجور ومراجعة أشطر الضريبة على الدخل والرفع من الحد الأدنى للأجور قبل فاتح ماي.",
+    "severity": "medium",
+    "monthOccurred": 0,
+    "choices": [
+      {
+        "id": "social_dialogue_historic_accord",
+        "textEn": "Sign Tripartite Wage Increase & Income Tax Relief Accord",
+        "textAr": "توقيع اتفاق اجتماعي تاريخي بزيادة الأجور وتخفيف الضريبة على الدخل",
+        "costBillionMAD": 2.8,
+        "consequencesEn": [
+          "Significantly cools strike threats and raises public approval",
+          "Raises recurring monthly public payroll pressure"
+        ],
+        "consequencesAr": [
+          "تهدئة شاملة للجبهة الاجتماعية وتحسن ملموس للقدرة الشرائية",
+          "ارتفاع الالتزامات الشهرية لكتلة الأجور بالوظيفة العمومية"
+        ],
+        "effects": {
+          "socialTensionDelta": -9,
+          "approvalDelta": 7,
+          "stabilityDelta": 5,
+          "inflationDelta": 0.25,
+          "budgetExpenseDelta": 0.45
+        }
+      },
+      {
+        "id": "social_dialogue_targeted_bonus",
+        "textEn": "Offer Sectoral Bonuses & SME Hiring Tax Credits",
+        "textAr": "تقديم تعويضات قطاعية مستهدفة وتحفيزات جبائية لتشغيل الشباب",
+        "costBillionMAD": 1.1,
+        "consequencesEn": [
+          "Preserves dialogue table with manageable fiscal impact"
+        ],
+        "consequencesAr": [
+          "الحفاظ على استمرار الحوار الاجتماعي بكلفة متوازنة على المالية العمومية"
+        ],
+        "effects": {
+          "socialTensionDelta": -4,
+          "approvalDelta": 3,
+          "stabilityDelta": 2
+        }
+      },
+      {
+        "id": "social_dialogue_freeze_wages",
+        "textEn": "Freeze Public Wages Due to Budget Constraints",
+        "textAr": "رفض الزيادة العامة في الأجور بدعوى الإكراهات الميزانياتية",
+        "costBillionMAD": 0.0,
+        "consequencesEn": [
+          "Saves treasury liquidity but triggers union walkout and strikes"
+        ],
+        "consequencesAr": [
+          "تفادي نفقات إضافية لكنه يؤدي إلى انسداد الحوار وإضرابات قطاعية"
+        ],
+        "effects": {
+          "socialTensionDelta": 10,
+          "approvalDelta": -6,
+          "stabilityDelta": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "imf_fcl_review_warning",
+    "type": "economic",
+    "titleEn": "IMF Flexible Credit Line & Sovereign Debt Watch Review",
+    "titleAr": "مراجعة صندوق النقد الدولي ووكالات التصنيف لتطور الدين العمومي",
+    "descriptionEn": "International lenders and rating agencies highlight rising deficit pressures and advise structural subsidy reform and tax base broadening.",
+    "descriptionAr": "تقارير مؤسسات التمويل الدولية تدق ناقوس الخطر حول وتيرة تنامي المديونية، وتوصي بتسريع إصلاح صندوق المقاصة وتوسيع الوعاء الضريبي للحفاظ على التصنيف الاستثماري.",
+    "severity": "high",
+    "monthOccurred": 0,
+    "choices": [
+      {
+        "id": "imf_commit_fiscal_path",
+        "textEn": "Commit to Formal Deficit Consolidation Path & Digitize Customs",
+        "textAr": "الالتزام بمسار تقليص العجز وتحديث الإدارة الجمركية والجبائية رقمياً",
+        "costBillionMAD": 0.3,
+        "consequencesEn": [
+          "Reassures bond markets and strengthens FDI credibility",
+          "Requires disciplined ministerial expenditure caps"
+        ],
+        "consequencesAr": [
+          "طمأنة الأسواق الدولية وتقوية مصداقية التصنيف السيادي للمغرب",
+          "ضبط صارم لنفقات التسيير العمومي"
+        ],
+        "effects": {
+          "gdpGrowthDelta": 0.2,
+          "approvalDelta": 1,
+          "stabilityDelta": 3,
+          "foreignRelationDelta": { "usa": 5, "eu": 6 }
+        }
+      },
+      {
+        "id": "imf_prioritize_social_shield",
+        "textEn": "Defend Domestic Social Spending & Slow Fiscal Tightening",
+        "textAr": "التمسك بأولوية البرامج الاجتماعية وتأجيل التقشف المالي",
+        "costBillionMAD": 1.0,
+        "consequencesEn": [
+          "Protects vulnerable households from sudden subsidy cuts",
+          "Risks slightly higher external borrowing costs"
+        ],
+        "consequencesAr": [
+          "حماية الفئات الهشة من صدمات الأسعار وكسب رضا النقابات",
+          "ارتفاع نسبي في كلفة الاقتراض من السوق الدولية"
+        ],
+        "effects": {
+          "socialTensionDelta": -3,
+          "approvalDelta": 3.5,
+          "inflationDelta": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "global_energy_price_shock",
+    "type": "international",
+    "titleEn": "Global Oil & LNG Supply Shock Hits Pump Prices",
+    "titleAr": "ارتفاع حاد بأسعار المحروقات العالمية وضغط على فاتورة الواردات الطاقية",
+    "descriptionEn": "Geopolitical turbulence drives Brent crude above market baselines, pressuring diesel prices, butane gas subsidies, and agricultural freight across Morocco.",
+    "descriptionAr": "اضطرابات سلاسل الإمداد الطاقي ترفع أسعار النفط عالمياً، مما يضغط على أثمان الغازوال بالمضخات وعلى ميزانية دعم غاز البوتان.",
+    "severity": "high",
+    "monthOccurred": 0,
+    "choices": [
+      {
+        "id": "energy_emergency_transport_grant",
+        "textEn": "Re-activate Targeted Fuel Stipend for Transporters & Fishermen",
+        "textAr": "تفعيل دعم استثنائي مباشر لمهنيي النقل الطرقي والصيد البحري",
+        "costBillionMAD": 1.6,
+        "consequencesEn": [
+          "Buffers food & logistics inflation and avoids transport strikes"
+        ],
+        "consequencesAr": [
+          "امتصاص موجة غلاء النقل والحيلولة دون إضراب الشاحنات وسيارات الأجرة"
+        ],
+        "effects": {
+          "inflationDelta": -0.45,
+          "socialTensionDelta": -5,
+          "approvalDelta": 4,
+          "stabilityDelta": 2
+        }
+      },
+      {
+        "id": "energy_accelerate_renewables",
+        "textEn": "Fast-Track Noor Solar & Industrial LNG Procurement Contracts",
+        "textAr": "تسريع عقود الطاقات المتجددة وتخزين الغاز الطبيعي عبر الأنبوب المغاربي",
+        "costBillionMAD": 2.0,
+        "consequencesEn": [
+          "Cuts medium-term energy import dependence",
+          "Short-term consumer relief takes time"
+        ],
+        "consequencesAr": [
+          "تقليص التبعية الطاقية للخارج على المدى المتوسط",
+          "استمرار أثر الأسعار المرتفعة مؤقتاً على المستهلكين"
+        ],
+        "effects": {
+          "gdpGrowthDelta": 0.35,
+          "inflationDelta": 0.15,
+          "approvalDelta": 1.5
+        }
+      },
+      {
+        "id": "energy_pass_through_prices",
+        "textEn": "Allow Market Pump Prices Without New Subsidies",
+        "textAr": "ترك الأسعار تخضع لآلية العرض والطلب دون دعم إضافي",
+        "costBillionMAD": 0.0,
+        "consequencesEn": [
+          "Protects budget reserves but sparks inflation and commuter anger"
+        ],
+        "consequencesAr": [
+          "تفادي نزيف الميزانية لكنه يرفع أسعار النقل والمواد الغذائية وتوتر الشارع"
+        ],
+        "effects": {
+          "inflationDelta": 0.75,
+          "socialTensionDelta": 8,
+          "approvalDelta": -5,
+          "stabilityDelta": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "maritime_fisheries_port_modernization",
+    "type": "environmental",
+    "titleEn": "Atlantic Fisheries Quota & Southern Port Logistics Modernization",
+    "titleAr": "ملف الصيد البحري المستدام وتحديث موانئ الساحل الأطلسي",
+    "descriptionEn": "Coastal artisans and industrial trawler syndicates call for upgraded cold-chain facilities and biological rest compensation from Dakhla to Tangier.",
+    "descriptionAr": "أرباب مراكب الصيد البحري والتعاونيات يطالبون بتعويضات عن فترات الراحة البيولوجية وتحديث محطات التبريد والربط المينائي بآسفي والعيون والداخلة.",
+    "severity": "low",
+    "monthOccurred": 0,
+    "affectedRegionId": "dakhla_oued_ed_dahab",
+    "choices": [
+      {
+        "id": "fisheries_blue_economy_fund",
+        "textEn": "Establish Blue Economy & Biological Rest Compensation Fund",
+        "textAr": "إحداث صندوق مواكبة البحارة أثناء الراحة البيولوجية وتطوير الاقتصاد الأزرق",
+        "costBillionMAD": 0.9,
+        "consequencesEn": [
+          "Boosts coastal livelihoods, seafood exports, and southern regional satisfaction"
+        ],
+        "consequencesAr": [
+          "تحسن أوضاع مهنيي الصيد وارتفاع صادرات المنتجات البحرية واستقرار الأقاليم الجنوبية"
+        ],
+        "effects": {
+          "gdpGrowthDelta": 0.25,
+          "approvalDelta": 3,
+          "regionalSatisfactionDelta": 9,
+          "socialTensionDelta": -4
+        }
+      },
+      {
+        "id": "fisheries_strict_enforcement_only",
+        "textEn": "Enforce Strict Biological Rest Quotas Without Compensations",
+        "textAr": "تطبيق صارم للراحة البيولوجية لحماية المخزون السمكي دون منح تعويضات",
+        "costBillionMAD": 0.0,
+        "consequencesEn": [
+          "Protects fish stocks sustainably but triggers coastal port sit-ins"
+        ],
+        "consequencesAr": [
+          "حماية الثروة السمكية مالياً مجاناً لكنها تثير احتقاناً لدى بحارة الصيد التقليدي"
+        ],
+        "effects": {
+          "regionalSatisfactionDelta": -6,
+          "socialTensionDelta": 5,
+          "approvalDelta": -2
+        }
+      }
+    ]
+  }
+]
